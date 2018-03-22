@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_02X02_ALT
+D Connector, double row, 02x02
+K connector
+$ENDCMP
+#
+$CMP LED_RGB_CA_Small
+D LED, small symbol
+K led diode light-emitting-diode
+$ENDCMP
+#
+$CMP Q_NMOS
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP USB_MICRO_B
+D USB micro/mini connector
+K connector USB USB_OTG USB_mini USB_micro
+$ENDCMP
+#
+$CMP VCC
+K POWER, PWR
+$ENDCMP
+#
+$CMP VIN
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library

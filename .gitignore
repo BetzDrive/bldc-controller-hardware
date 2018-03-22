@@ -1,0 +1,9 @@
+.DS_Store
+*.bak
+*.bck
+*.kicad_pcb-bak
+bldc-controller.csv
+bldc-controller.net
+bldc-controller.xml
+*.zip
+
