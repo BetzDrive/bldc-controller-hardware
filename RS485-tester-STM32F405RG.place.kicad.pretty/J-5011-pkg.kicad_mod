@@ -1,0 +1,15 @@
+(module J-5011-pkg (layer F.Cu)  
+    
+  (pad 1 thru_hole circle
+    (at 0.0 0.0 0.0)
+    (size 2.3 2.3)
+    (drill 1.6)
+    (layers *.Cu B.Mask F.Mask))  
+  (fp_line (start -1.585 -1.585) (end -1.585 1.585) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.585 1.585) (end 1.585 1.585) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.585 1.585) (end 1.585 -1.585) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.585 -1.585) (end -1.585 -1.585) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.585 -1.585) (end -1.585 1.585) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start -1.585 1.585) (end 1.585 1.585) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start 1.585 1.585) (end 1.585 -1.585) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start 1.585 -1.585) (end -1.585 -1.585) (layer B.CrtYd) (width 0.05)))

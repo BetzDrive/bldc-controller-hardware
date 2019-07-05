@@ -1,0 +1,31 @@
+(module phoenix-combicon-mc-pkg$2 (layer F.Cu)  
+    
+  (pad 1 thru_hole circle
+    (at -5.715 -8.0 0.0)
+    (size 1.9 1.9)
+    (drill 1.2)
+    (layers *.Cu B.Mask F.Mask))  
+  (pad 2 thru_hole circle
+    (at -1.905 -8.0 0.0)
+    (size 1.9 1.9)
+    (drill 1.2)
+    (layers *.Cu B.Mask F.Mask))  
+  (pad 3 thru_hole circle
+    (at 1.905 -8.0 0.0)
+    (size 1.9 1.9)
+    (drill 1.2)
+    (layers *.Cu B.Mask F.Mask))  
+  (pad 4 thru_hole circle
+    (at 5.715 -8.0 0.0)
+    (size 1.9 1.9)
+    (drill 1.2)
+    (layers *.Cu B.Mask F.Mask))  
+  (fp_line (start -8.315 -9.2) (end -8.315 0.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -8.315 0.0) (end 8.315 0.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 8.315 0.0) (end 8.315 -9.2) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 8.315 -9.2) (end -8.315 -9.2) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -6.715 -9.0) (end -6.715 -7.0) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start -6.715 -7.0) (end 6.715 -7.0) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start 6.715 -7.0) (end 6.715 -9.0) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start 6.715 -9.0) (end -6.715 -9.0) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start -8.315 0.0) (end 8.315 0.0) (layer Cmts.User) (width 0.05)))

@@ -1,0 +1,30 @@
+(module ge-SHHD003A0A41-SRZ-pkg (layer F.Cu)  
+    
+  (pad 1 smd circle
+    (at -10.16 2.5 0.0)
+    (size 2.0 2.0)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd circle
+    (at -10.16 -2.58 0.0)
+    (size 2.0 2.0)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd circle
+    (at -10.16 -10.2 0.0)
+    (size 2.0 2.0)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 4 smd circle
+    (at 10.16 -10.2 0.0)
+    (size 2.0 2.0)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 5 smd circle
+    (at 10.16 -0.0399999999999991 0.0)
+    (size 2.0 2.0)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 6 smd circle
+    (at 10.16 10.12 0.0)
+    (size 2.0 2.0)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -13.95 -12.2) (end -13.95 12.2) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -13.95 12.2) (end 13.95 12.2) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 13.95 12.2) (end 13.95 -12.2) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 13.95 -12.2) (end -13.95 -12.2) (layer F.CrtYd) (width 0.05)))

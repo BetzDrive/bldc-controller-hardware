@@ -1,0 +1,43 @@
+(module molex-0476420001-pkg (layer F.Cu)  
+    
+  (pad 1 smd rect
+    (at -1.3 -6.47 0.0)
+    (size 0.45 1.1)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at -0.65 -6.47 0.0)
+    (size 0.45 1.1)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd rect
+    (at 0.0 -6.47 0.0)
+    (size 0.45 1.1)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 4 smd rect
+    (at 0.65 -6.47 0.0)
+    (size 0.45 1.1)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 5 smd rect
+    (at 1.3 -6.47 0.0)
+    (size 0.45 1.1)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 6 smd rect
+    (at -4.95 -5.95 0.0)
+    (size 1.2 2.1)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 7 smd rect
+    (at 4.95 -5.95 0.0)
+    (size 1.2 2.1)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 8 smd rect
+    (at -4.95 -1.95 0.0)
+    (size 1.2 2.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 9 smd rect
+    (at 4.95 -1.95 0.0)
+    (size 1.2 2.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -4.95 -7.02) (end -4.95 0.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -4.95 0.0) (end 4.95 0.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 4.95 0.0) (end 4.95 -7.02) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 4.95 -7.02) (end -4.95 -7.02) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -4.95 0.0) (end 4.95 0.0) (layer Cmts.User) (width 0.05)))
