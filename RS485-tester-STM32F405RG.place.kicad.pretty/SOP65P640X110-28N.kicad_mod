@@ -1,0 +1,123 @@
+(module SOP65P640X110-28N (layer F.Cu)  
+    
+  (pad 1 smd rect
+    (at -2.7 -4.225 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at -2.7 -3.575 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd rect
+    (at -2.7 -2.925 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 4 smd rect
+    (at -2.7 -2.275 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 5 smd rect
+    (at -2.7 -1.625 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 6 smd rect
+    (at -2.7 -0.975000000000001 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 7 smd rect
+    (at -2.7 -0.325 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 8 smd rect
+    (at -2.7 0.324999999999999 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 9 smd rect
+    (at -2.7 0.975 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 10 smd rect
+    (at -2.7 1.625 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 11 smd rect
+    (at -2.7 2.275 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 12 smd rect
+    (at -2.7 2.925 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 13 smd rect
+    (at -2.7 3.575 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 14 smd rect
+    (at -2.7 4.225 270.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 15 smd rect
+    (at 2.7 4.225 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 16 smd rect
+    (at 2.7 3.575 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 17 smd rect
+    (at 2.7 2.925 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 18 smd rect
+    (at 2.7 2.275 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 19 smd rect
+    (at 2.7 1.625 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 20 smd rect
+    (at 2.7 0.975000000000001 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 21 smd rect
+    (at 2.7 0.325 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 22 smd rect
+    (at 2.7 -0.324999999999999 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 23 smd rect
+    (at 2.7 -0.975 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 24 smd rect
+    (at 2.7 -1.625 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 25 smd rect
+    (at 2.7 -2.275 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 26 smd rect
+    (at 2.7 -2.925 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 27 smd rect
+    (at 2.7 -3.575 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 28 smd rect
+    (at 2.7 -4.225 90.0)
+    (size 0.39 1.4)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -3.95 -4.85) (end -3.95 4.85) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -3.95 4.85) (end 3.95 4.85) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 3.95 4.85) (end 3.95 -4.85) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 3.95 -4.85) (end -3.95 -4.85) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -3.95 4.85) (end 3.95 4.85) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 3.95 4.85) (end 3.95 -4.85) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 3.95 -4.85) (end -3.95 -4.85) (layer F.SilkS) (width 0.254))  
+  (fp_line (start -3.95 -4.85) (end -3.95 4.85) (layer F.SilkS) (width 0.254))  
+  (fp_poly (pts (xy -4.446 -4.225) (xy -4.45088053877758 -4.2745529417921) (xy -4.46533459874213 -4.32220159182073) (xy -4.48880671847515 -4.36611483918698) (xy -4.52039487757862 -4.40460512242138) (xy -4.55888516081302 -4.43619328152485) (xy -4.60279840817927 -4.45966540125787) (xy -4.6504470582079 -4.47411946122242) (xy -4.7 -4.479) (xy -4.7495529417921 -4.47411946122242) (xy -4.79720159182073 -4.45966540125787) (xy -4.84111483918698 -4.43619328152485) (xy -4.87960512242138 -4.40460512242138) (xy -4.91119328152485 -4.36611483918698) (xy -4.93466540125787 -4.32220159182073) (xy -4.94911946122242 -4.2745529417921) (xy -4.954 -4.225) (xy -4.94911946122242 -4.1754470582079) (xy -4.93466540125787 -4.12779840817927) (xy -4.91119328152485 -4.08388516081302) (xy -4.87960512242138 -4.04539487757862) (xy -4.84111483918698 -4.01380671847515) (xy -4.79720159182073 -3.99033459874213) (xy -4.7495529417921 -3.97588053877758) (xy -4.7 -3.971) (xy -4.6504470582079 -3.97588053877758) (xy -4.60279840817927 -3.99033459874213) (xy -4.55888516081302 -4.01380671847515) (xy -4.52039487757862 -4.04539487757862) (xy -4.48880671847515 -4.08388516081302) (xy -4.46533459874213 -4.12779840817927) (xy -4.45088053877758 -4.1754470582079)) (layer F.SilkS) (width 0)))

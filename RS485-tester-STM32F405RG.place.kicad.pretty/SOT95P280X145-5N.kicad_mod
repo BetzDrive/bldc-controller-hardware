@@ -1,0 +1,30 @@
+(module SOT95P280X145-5N (layer F.Cu)  
+    
+  (pad 1 smd rect
+    (at -0.95 1.35 0.0)
+    (size 0.6 1.05)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at 0.0 1.35 0.0)
+    (size 0.6 1.05)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd rect
+    (at 0.95 1.35 0.0)
+    (size 0.6 1.05)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 4 smd rect
+    (at 0.95 -1.35 0.0)
+    (size 0.6 1.05)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 5 smd rect
+    (at -0.95 -1.35 0.0)
+    (size 0.6 1.05)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -1.35 -1.975) (end -1.35 1.975) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.35 1.975) (end 1.35 1.975) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.35 1.975) (end 1.35 -1.975) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.35 -1.975) (end -1.35 -1.975) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.35 1.975) (end 1.35 1.975) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 1.35 1.975) (end 1.35 -1.975) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 1.35 -1.975) (end -1.35 -1.975) (layer F.SilkS) (width 0.254))  
+  (fp_line (start -1.35 -1.975) (end -1.35 1.975) (layer F.SilkS) (width 0.254)))

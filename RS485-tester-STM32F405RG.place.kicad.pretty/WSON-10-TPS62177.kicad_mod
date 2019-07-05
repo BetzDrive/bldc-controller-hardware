@@ -1,0 +1,53 @@
+(module WSON-10-TPS62177 (layer F.Cu)  
+    
+  (pad 1 smd rect
+    (at -0.95 -1.0 270.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at -0.95 -0.5 270.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd rect
+    (at -0.95 0.0 270.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 4 smd rect
+    (at -0.95 0.5 270.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 5 smd rect
+    (at -0.95 1.0 270.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 6 smd rect
+    (at 0.95 1.0 90.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 7 smd rect
+    (at 0.95 0.5 90.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 8 smd rect
+    (at 0.95 0.0 90.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 9 smd rect
+    (at 0.95 -0.5 90.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 10 smd rect
+    (at 0.95 -1.0 90.0)
+    (size 0.25 0.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -1.2 -1.7) (end -1.2 1.7) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.2 1.7) (end 1.2 1.7) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.2 1.7) (end 1.2 -1.7) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.2 -1.7) (end -1.2 -1.7) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.0 1.5) (end 1.0 1.5) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 1.0 1.5) (end 1.0 -1.5) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 1.0 -1.5) (end -1.0 -1.5) (layer F.SilkS) (width 0.254))  
+  (fp_line (start -1.0 -1.5) (end -1.0 1.5) (layer F.SilkS) (width 0.254))  
+  (fp_poly (pts (xy -1.346 -2.1) (xy -1.35088053877758 -2.1495529417921) (xy -1.36533459874213 -2.19720159182073) (xy -1.38880671847515 -2.24111483918698) (xy -1.42039487757862 -2.27960512242138) (xy -1.45888516081302 -2.31119328152485) (xy -1.50279840817927 -2.33466540125787) (xy -1.5504470582079 -2.34911946122242) (xy -1.6 -2.354) (xy -1.6495529417921 -2.34911946122242) (xy -1.69720159182073 -2.33466540125787) (xy -1.74111483918698 -2.31119328152485) (xy -1.77960512242138 -2.27960512242138) (xy -1.81119328152485 -2.24111483918698) (xy -1.83466540125787 -2.19720159182073) (xy -1.84911946122242 -2.1495529417921) (xy -1.854 -2.1) (xy -1.84911946122242 -2.0504470582079) (xy -1.83466540125787 -2.00279840817927) (xy -1.81119328152485 -1.95888516081302) (xy -1.77960512242138 -1.92039487757862) (xy -1.74111483918698 -1.88880671847515) (xy -1.69720159182073 -1.86533459874213) (xy -1.6495529417921 -1.85088053877758) (xy -1.6 -1.846) (xy -1.5504470582079 -1.85088053877758) (xy -1.50279840817927 -1.86533459874213) (xy -1.45888516081302 -1.88880671847515) (xy -1.42039487757862 -1.92039487757862) (xy -1.38880671847515 -1.95888516081302) (xy -1.36533459874213 -2.00279840817927) (xy -1.35088053877758 -2.0504470582079)) (layer F.SilkS) (width 0))  
+  (fp_text reference ">REF" (at 0.0 0.0 0.0) (layer F.SilkS)
+    (effects (font (size 0.7056 0.7056) (thickness 0.10)) (justify ))))

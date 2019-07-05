@@ -1,0 +1,34 @@
+(module D-MSL0104RGB-pkg (layer F.Cu)  
+    
+  (pad 1 smd rect
+    (at -2.95 0.79 0.0)
+    (size 1.06 1.58)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at -1.8 1.09 0.0)
+    (size 0.6 2.18)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd rect
+    (at -0.9 1.09 0.0)
+    (size 0.6 2.18)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 4 smd rect
+    (at 0.0 1.09 0.0)
+    (size 0.6 2.18)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 5 smd rect
+    (at 0.9 1.09 0.0)
+    (size 0.6 2.18)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 6 smd rect
+    (at 1.8 1.09 0.0)
+    (size 0.6 2.18)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 7 smd rect
+    (at 2.95 0.79 0.0)
+    (size 1.06 1.58)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -3.45 -0.75) (end -3.45 2.15) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -3.45 2.15) (end 3.45 2.15) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 3.45 2.15) (end 3.45 -0.75) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 3.45 -0.75) (end -3.45 -0.75) (layer F.CrtYd) (width 0.05)))

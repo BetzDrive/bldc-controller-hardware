@@ -1,0 +1,22 @@
+(module SOT65P235X100-3N (layer F.Cu)  
+    
+  (pad 1 smd rect
+    (at -0.65 0.925 0.0)
+    (size 0.6 0.55)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at 0.65 0.925 0.0)
+    (size 0.6 0.55)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd rect
+    (at 0.0 -0.925 0.0)
+    (size 0.6 0.55)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -1.175 -1.325) (end -1.175 1.325) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.175 1.325) (end 1.175 1.325) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.175 1.325) (end 1.175 -1.325) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.175 -1.325) (end -1.175 -1.325) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.175 1.325) (end 1.175 1.325) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 1.175 1.325) (end 1.175 -1.325) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 1.175 -1.325) (end -1.175 -1.325) (layer F.SilkS) (width 0.254))  
+  (fp_line (start -1.175 -1.325) (end -1.175 1.325) (layer F.SilkS) (width 0.254)))

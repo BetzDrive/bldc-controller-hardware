@@ -1,0 +1,21 @@
+(module DIOM-7162X200 (layer F.Cu)  
+    
+  (pad 1 smd rect
+    (at -3.31 0.0 0.0)
+    (size 1.76 3.175)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at 3.31 0.0 0.0)
+    (size 1.76 3.175)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -4.25 -3.25) (end -4.25 3.25) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -4.25 3.25) (end 4.25 3.25) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 4.25 3.25) (end 4.25 -3.25) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 4.25 -3.25) (end -4.25 -3.25) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -4.25 3.25) (end 4.25 3.25) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 4.25 3.25) (end 4.25 -3.25) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 4.25 -3.25) (end -4.25 -3.25) (layer F.SilkS) (width 0.254))  
+  (fp_line (start -4.25 -3.25) (end -4.25 3.25) (layer F.SilkS) (width 0.254))  
+  (fp_text reference ">REF" (at 0.0 0.0 0.0) (layer F.SilkS)
+    (effects (font (size 0.7056 0.7056) (thickness 0.10)) (justify )))  
+  (fp_line (start 4.75 3.1) (end 4.75 -3.1) (layer F.SilkS) (width 0.25)))

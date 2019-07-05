@@ -1,0 +1,30 @@
+(module SON50P150X150X80-6 (layer F.Cu)  
+    
+  (pad 1 smd rect
+    (at -0.5 -0.575 0.0)
+    (size 0.28 0.75)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at 0.0 -0.575 0.0)
+    (size 0.28 0.75)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd rect
+    (at 0.5 -0.575 0.0)
+    (size 0.28 0.75)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 4 smd rect
+    (at -0.5 0.525 0.0)
+    (size 0.28 0.85)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 5 smd rect
+    (at 0.0 0.575 0.0)
+    (size 0.28 0.75)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 6 smd rect
+    (at 0.5 0.575 0.0)
+    (size 0.28 0.75)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -0.64 -0.95) (end -0.64 0.95) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -0.64 0.95) (end 0.64 0.95) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 0.64 0.95) (end 0.64 -0.95) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 0.64 -0.95) (end -0.64 -0.95) (layer F.CrtYd) (width 0.05)))

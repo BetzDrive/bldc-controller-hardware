@@ -1,0 +1,269 @@
+(module LQFP64 (layer F.Cu)  
+    
+  (pad 1 smd rect
+    (at -6.4 -3.75 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at -6.4 -3.25 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd rect
+    (at -6.4 -2.75 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 4 smd rect
+    (at -6.4 -2.25 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 5 smd rect
+    (at -6.4 -1.75 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 6 smd rect
+    (at -6.4 -1.25 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 7 smd rect
+    (at -6.4 -0.75 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 8 smd rect
+    (at -6.4 -0.25 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 9 smd rect
+    (at -6.4 0.25 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 10 smd rect
+    (at -6.4 0.75 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 11 smd rect
+    (at -6.4 1.25 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 12 smd rect
+    (at -6.4 1.75 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 13 smd rect
+    (at -6.4 2.25 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 14 smd rect
+    (at -6.4 2.75 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 15 smd rect
+    (at -6.4 3.25 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 16 smd rect
+    (at -6.4 3.75 270.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 17 smd rect
+    (at -3.75 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 18 smd rect
+    (at -3.25 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 19 smd rect
+    (at -2.75 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 20 smd rect
+    (at -2.25 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 21 smd rect
+    (at -1.75 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 22 smd rect
+    (at -1.25 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 23 smd rect
+    (at -0.75 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 24 smd rect
+    (at -0.25 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 25 smd rect
+    (at 0.25 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 26 smd rect
+    (at 0.75 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 27 smd rect
+    (at 1.25 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 28 smd rect
+    (at 1.75 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 29 smd rect
+    (at 2.25 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 30 smd rect
+    (at 2.75 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 31 smd rect
+    (at 3.25 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 32 smd rect
+    (at 3.75 6.4 0.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 33 smd rect
+    (at 6.4 3.75 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 34 smd rect
+    (at 6.4 3.25 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 35 smd rect
+    (at 6.4 2.75 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 36 smd rect
+    (at 6.4 2.25 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 37 smd rect
+    (at 6.4 1.75 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 38 smd rect
+    (at 6.4 1.25 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 39 smd rect
+    (at 6.4 0.75 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 40 smd rect
+    (at 6.4 0.25 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 41 smd rect
+    (at 6.4 -0.25 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 42 smd rect
+    (at 6.4 -0.75 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 43 smd rect
+    (at 6.4 -1.25 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 44 smd rect
+    (at 6.4 -1.75 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 45 smd rect
+    (at 6.4 -2.25 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 46 smd rect
+    (at 6.4 -2.75 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 47 smd rect
+    (at 6.4 -3.25 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 48 smd rect
+    (at 6.4 -3.75 90.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 49 smd rect
+    (at 3.75 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 50 smd rect
+    (at 3.25 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 51 smd rect
+    (at 2.75 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 52 smd rect
+    (at 2.25 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 53 smd rect
+    (at 1.75 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 54 smd rect
+    (at 1.25 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 55 smd rect
+    (at 0.75 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 56 smd rect
+    (at 0.25 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 57 smd rect
+    (at -0.25 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 58 smd rect
+    (at -0.75 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 59 smd rect
+    (at -1.25 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 60 smd rect
+    (at -1.75 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 61 smd rect
+    (at -2.25 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 62 smd rect
+    (at -2.75 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 63 smd rect
+    (at -3.25 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 64 smd rect
+    (at -3.75 -6.4 180.0)
+    (size 0.3 1.2)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -7.0 -7.0) (end -7.0 7.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -7.0 7.0) (end 7.0 7.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 7.0 7.0) (end 7.0 -7.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 7.0 -7.0) (end -7.0 -7.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -5.7 5.7) (end 5.7 5.7) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 5.7 5.7) (end 5.7 -5.7) (layer F.SilkS) (width 0.254))  
+  (fp_line (start 5.7 -5.7) (end -5.7 -5.7) (layer F.SilkS) (width 0.254))  
+  (fp_line (start -5.7 -5.7) (end -5.7 5.7) (layer F.SilkS) (width 0.254))  
+  (fp_poly (pts (xy -7.146 -7.4) (xy -7.15088053877758 -7.4495529417921) (xy -7.16533459874213 -7.49720159182073) (xy -7.18880671847515 -7.54111483918698) (xy -7.22039487757862 -7.57960512242138) (xy -7.25888516081302 -7.61119328152485) (xy -7.30279840817927 -7.63466540125787) (xy -7.3504470582079 -7.64911946122242) (xy -7.4 -7.654) (xy -7.4495529417921 -7.64911946122242) (xy -7.49720159182073 -7.63466540125787) (xy -7.54111483918698 -7.61119328152485) (xy -7.57960512242138 -7.57960512242138) (xy -7.61119328152485 -7.54111483918698) (xy -7.63466540125787 -7.49720159182073) (xy -7.64911946122242 -7.4495529417921) (xy -7.654 -7.4) (xy -7.64911946122242 -7.3504470582079) (xy -7.63466540125787 -7.30279840817927) (xy -7.61119328152485 -7.25888516081302) (xy -7.57960512242138 -7.22039487757862) (xy -7.54111483918698 -7.18880671847515) (xy -7.49720159182073 -7.16533459874213) (xy -7.4495529417921 -7.15088053877758) (xy -7.4 -7.146) (xy -7.3504470582079 -7.15088053877758) (xy -7.30279840817927 -7.16533459874213) (xy -7.25888516081302 -7.18880671847515) (xy -7.22039487757862 -7.22039487757862) (xy -7.18880671847515 -7.25888516081302) (xy -7.16533459874213 -7.30279840817927) (xy -7.15088053877758 -7.3504470582079)) (layer F.SilkS) (width 0))  
+  (fp_text reference ">REF" (at 0.0 0.0 0.0) (layer F.SilkS)
+    (effects (font (size 0.7056 0.7056) (thickness 0.10)) (justify ))))
