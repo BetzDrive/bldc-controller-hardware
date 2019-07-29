@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA250
+D Bidirectional, Zero-Drift Current-Shunt Monitor with Precision Integrated Shunt Resistor TSSOP-16
+K single instrumentation amp
+F http://www.ti.com/lit/ds/symlink/ina253.pdf
+$ENDCMP
+#
+$CMP INA253
+D High Voltage, Bidirectional, Zero-Drift Current-Shunt Monitor with Integrated Shunt Resistor TSSOP-20
+K single instrumentation amp
+F http://www.ti.com/lit/ds/symlink/ina253.pdf
+$ENDCMP
+#
+#End Doc Library
