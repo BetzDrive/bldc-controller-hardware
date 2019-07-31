@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:BLDC-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -70,13 +70,11 @@ Text Label 9750 7350 2    40   ~ 0
 LED_B
 Text Label 11450 7650 3    40   ~ 0
 vcap-1
-Text Label 11950 6650 0    40   ~ 0
-MOT_PWM_C
 Text Label 10950 5750 1    40   ~ 0
 SWD_SWO
 Text Label 9750 7450 2    40   ~ 0
 LED_G
-Text Label 11950 7350 0    40   ~ 0
+Text Label 11950 6750 0    40   ~ 0
 MOT_RST_C
 Text Label 11950 6550 0    40   ~ 0
 MOT_PWM_B
@@ -84,13 +82,13 @@ Text Label 11050 5750 1    40   ~ 0
 RS485_DIR
 Text Label 10350 5750 1    40   ~ 0
 I2C_SCL
-Text Label 9750 6650 2    40   ~ 0
+Text Label 10450 7650 3    40   ~ 0
 ISENSE_A
-Text Label 11950 6750 0    40   ~ 0
+Text Label 11950 7450 0    40   ~ 0
 MOT_OCTW
 Text Label 11450 5750 1    40   ~ 0
 SPI_CS
-Text Label 11950 7150 0    40   ~ 0
+Text Label 11950 7250 0    40   ~ 0
 MOT_RST_A
 Text Label 9750 6550 2    40   ~ 0
 SWD_RESET
@@ -98,9 +96,9 @@ Text Label 11950 6150 0    40   ~ 0
 SWD_SWDIO
 Text Label 11550 5750 1    40   ~ 0
 SWD_SWCLK
-Text Label 11950 6850 0    40   ~ 0
+Text Label 11950 7350 0    40   ~ 0
 MOT_FAULT
-Text Label 10850 5750 1    40   ~ 0
+Text Label 10750 5750 1    40   ~ 0
 ENC_A
 Text Label 10850 7650 3    40   ~ 0
 VSENSE_B
@@ -108,13 +106,13 @@ Text Label 11950 6050 0    40   ~ 0
 vcap-2
 Text Label 10250 5750 1    40   ~ 0
 I2C_SDA
-Text Label 10750 5750 1    40   ~ 0
+Text Label 10850 5750 1    40   ~ 0
 ENC_B
 Text Label 10750 7650 3    40   ~ 0
 VSENSE_C
 Text Label 9750 7250 2    40   ~ 0
 LED_R
-Text Label 9750 6750 2    40   ~ 0
+Text Label 10550 7650 3    40   ~ 0
 ISENSE_B
 Text Label 11350 5750 1    40   ~ 0
 SPI_CLK
@@ -122,15 +120,15 @@ Text Label 11250 5750 1    40   ~ 0
 SPI_MISO
 Text Label 11950 6450 0    40   ~ 0
 MOT_PWM_A
-Text Label 11950 7250 0    40   ~ 0
+Text Label 11950 6850 0    40   ~ 0
 MOT_RST_B
 Text Label 10950 7650 3    40   ~ 0
 VSENSE_A
-Text Label 9750 6850 2    40   ~ 0
+Text Label 10650 7650 3    40   ~ 0
 ISENSE_C
 Text Label 10550 5750 1    40   ~ 0
 UART_RX
-Text Label 10050 7650 3    40   ~ 0
+Text Label 11050 7650 3    40   ~ 0
 LED_STATUS
 Text Label 2000 1300 3    40   ~ 0
 driver_phase-C
@@ -170,8 +168,6 @@ Text Notes 3900 8600 0    100  ~ 0
 Accelerometer
 Text Label 9750 6250 2    40   ~ 0
 RS485_SHUNT_EN
-Text Label 11950 7050 0    40   ~ 0
-MOT_PWR_EN
 Text Label 10650 5750 1    40   ~ 0
 UART_TX
 Text Label 2400 3200 0    40   ~ 0
@@ -204,13 +200,11 @@ Text Notes 6750 4400 0    100  ~ 0
 DC-DC
 Text Notes 7400 8500 0    100  ~ 0
 Processor
-Text Label 11950 6250 0    40   ~ 0
-ENC_PROG
 Text Label 11950 6350 0    40   ~ 0
 ENC_ALIGN
-Text Label 11950 6950 0    40   ~ 0
+Text Label 11950 7050 0    40   ~ 0
 ENC_MAG_HI
-Text Label 11950 7450 0    40   ~ 0
+Text Label 11950 6950 0    40   ~ 0
 ENC_MAG_LO
 Wire Wire Line
 	1900 9600 1900 10050
@@ -231,21 +225,15 @@ Wire Wire Line
 Wire Wire Line
 	6250 5100 6200 5100
 Wire Wire Line
-	900  3150 900  3200
-Wire Wire Line
 	1600 3400 1600 3550
 Wire Wire Line
 	8500 1300 8700 1300
-Wire Wire Line
-	900  3400 900  3550
 Wire Wire Line
 	10250 8300 10250 8400
 Wire Wire Line
 	1250 3400 1250 3550
 Wire Wire Line
 	9500 5600 9500 5700
-Wire Wire Line
-	10500 8400 10500 8150
 Wire Wire Line
 	9850 5700 9850 5600
 Wire Wire Line
@@ -401,14 +389,7 @@ Wire Wire Line
 	9500 5250 9500 5350
 Wire Wire Line
 	1950 3550 1950 3400
-Wire Wire Line
-	900  3550 1250 3550
 Connection ~ 1600 3550
-Connection ~ 1250 3550
-Wire Wire Line
-	900  2800 900  2850
-Wire Wire Line
-	900  2850 1250 2850
 Wire Wire Line
 	1250 2850 1250 3200
 Wire Wire Line
@@ -466,11 +447,9 @@ Wire Wire Line
 	2300 2850 2300 2900
 Connection ~ 1950 2850
 Wire Wire Line
-	10250 7900 10500 7900
+	10250 8050 10500 8050
 Wire Wire Line
-	10250 7650 10250 7900
-Wire Wire Line
-	10500 7850 10500 7900
+	10500 8000 10500 8050
 Wire Wire Line
 	900  2100 1150 2100
 Connection ~ 900  2100
@@ -511,7 +490,6 @@ Wire Wire Line
 Wire Wire Line
 	12050 8250 12050 8150
 Connection ~ 11800 8250
-Connection ~ 10250 7900
 Wire Wire Line
 	10050 5350 10050 5750
 Connection ~ 9850 5350
@@ -853,7 +831,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 7550 8100 7300
 Connection ~ 7950 7550
-Connection ~ 10500 7900
+Connection ~ 10500 8050
 Wire Wire Line
 	9100 2400 9100 2200
 Wire Wire Line
@@ -876,7 +854,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 2300 5050 2350
 Connection ~ 5050 2350
-Connection ~ 900  2850
 Wire Wire Line
 	4650 6050 4600 6050
 Wire Wire Line
@@ -1042,8 +1019,6 @@ Wire Wire Line
 Wire Wire Line
 	11800 8250 11800 8300
 Wire Wire Line
-	10250 7900 10250 8100
-Wire Wire Line
 	9850 5350 10050 5350
 Wire Wire Line
 	12750 6050 13100 6050
@@ -1144,8 +1119,6 @@ Wire Wire Line
 Wire Wire Line
 	7950 7550 8100 7550
 Wire Wire Line
-	10500 7900 10500 7950
-Wire Wire Line
 	8950 6750 9100 6750
 Wire Wire Line
 	4250 1600 4750 1600
@@ -1170,8 +1143,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 2350 5050 2400
 Wire Wire Line
-	900  2850 900  2950
-Wire Wire Line
 	3800 4250 3800 4450
 Wire Wire Line
 	5050 1550 5050 1600
@@ -1193,7 +1164,6 @@ Text Label 5600 6350 2    50   ~ 0
 DISCO_BUS_OUT
 Connection ~ 10250 8400
 Connection ~ 5050 3450
-Connection ~ 9100 7150
 Connection ~ 5250 9050
 Connection ~ 5250 9950
 Text Label 700  7650 0    40   ~ 0
@@ -1692,17 +1662,6 @@ F 3 "" H 10550 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR071
-U 1 1 5B55D085
-P 9100 7150
-F 0 "#PWR071" H 9100 7000 50  0001 C CNN
-F 1 "+3.3VA" H 9100 7290 50  0000 C CNN
-F 2 "" H 9100 7150 50  0001 C CNN
-F 3 "" H 9100 7150 50  0001 C CNN
-	1    9100 7150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+48V #PWR068
 U 1 1 5B555B5B
 P 7650 1200
@@ -1755,17 +1714,6 @@ F 1 "GND" H 2000 2450 50  0000 C CNN
 F 2 "" H 2000 2600 50  0001 C CNN
 F 3 "" H 2000 2600 50  0001 C CNN
 	1    2000 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+48V #PWR060
-U 1 1 5B54F55D
-P 900 2800
-F 0 "#PWR060" H 900 2650 50  0001 C CNN
-F 1 "+48V" H 900 2940 50  0000 C CNN
-F 2 "" H 900 2800 50  0001 C CNN
-F 3 "" H 900 2800 50  0001 C CNN
-	1    900  2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1903,12 +1851,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR039
 U 1 1 5B53BDAA
-P 10500 7850
-F 0 "#PWR039" H 10500 7700 50  0001 C CNN
-F 1 "+3V3" H 10500 7990 50  0000 C CNN
-F 2 "" H 10500 7850 50  0001 C CNN
-F 3 "" H 10500 7850 50  0001 C CNN
-	1    10500 7850
+P 10500 8000
+F 0 "#PWR039" H 10500 7850 50  0001 C CNN
+F 1 "+3V3" H 10500 8140 50  0000 C CNN
+F 2 "" H 10500 8000 50  0001 C CNN
+F 3 "" H 10500 8000 50  0001 C CNN
+	1    10500 8000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2629,7 +2577,7 @@ U 1 1 5B48C401
 P 2850 9750
 F 0 "U12" H 2900 9500 28  0000 L CNN
 F 1 "MCP9808" H 2750 9750 28  0000 L CNN
-F 2 "RS485-tester-STM32F405RG.place.kicad:VSSOP-8" H 2850 9750 60  0001 C CNN
+F 2 "RS485-tester-STM32F405RG.place.kicad:MSOP-8" H 2850 9750 60  0001 C CNN
 F 3 "" H 2850 9750 60  0001 C CNN
 	1    2850 9750
 	1    0    0    -1  
@@ -3131,15 +3079,15 @@ $EndComp
 $Comp
 L Device:C_Small C27
 U 1 1 5B48C437
-P 10500 8050
-F 0 "C27" H 10600 8000 28  0000 L CNN
-F 1 "1.0μF" H 10600 8050 28  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10500 8050 60  0001 C CNN
-F 3 "" H 10500 8050 60  0001 C CNN
-F 4 "1.0uF" H 10500 8050 60  0001 C CNN "Capacitance"
-F 5 "40.0%" H 10500 8050 60  0001 C CNN "Tolerance"
-F 6 "25.0V" H 10600 8100 28  0000 L CNN "Maximum Voltage"
-	1    10500 8050
+P 10500 8300
+F 0 "C27" H 10600 8250 28  0000 L CNN
+F 1 "1.0μF" H 10600 8300 28  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10500 8300 60  0001 C CNN
+F 3 "" H 10500 8300 60  0001 C CNN
+F 4 "1.0uF" H 10500 8300 60  0001 C CNN "Capacitance"
+F 5 "40.0%" H 10500 8300 60  0001 C CNN "Tolerance"
+F 6 "25.0V" H 10600 8350 28  0000 L CNN "Maximum Voltage"
+	1    10500 8300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3204,20 +3152,6 @@ F 4 "0.1uF" H 10250 8200 60  0001 C CNN "Capacitance"
 F 5 "40.0%" H 10250 8200 60  0001 C CNN "Tolerance"
 F 6 "25.0V" H 10350 8250 28  0000 L CNN "Maximum Voltage"
 	1    10250 8200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C23
-U 1 1 5B48C430
-P 900 3300
-F 0 "C23" H 1000 3250 28  0000 L CNN
-F 1 "10.0nF" H 1000 3300 28  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 900 3300 60  0001 C CNN
-F 3 "" H 900 3300 60  0001 C CNN
-F 4 "0.01uF" H 900 3300 60  0001 C CNN "Capacitance"
-F 5 "40.0%" H 900 3300 60  0001 C CNN "Tolerance"
-F 6 "100.0V" H 1000 3350 28  0000 L CNN "Maximum Voltage"
-	1    900  3300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -3303,7 +3237,7 @@ L Device:C_Small C21
 U 1 1 5B48C44B
 P 5600 7800
 F 0 "C21" H 5700 7750 28  0000 L CNN
-F 1 "1.0μF" H 5700 7800 28  0000 L CNN
+F 1 "100nF" H 5700 7800 28  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5600 7800 60  0001 C CNN
 F 3 "" H 5600 7800 60  0001 C CNN
 F 4 "1.0uF" H 5600 7800 60  0001 C CNN "Capacitance"
@@ -3311,20 +3245,6 @@ F 5 "40.0%" H 5600 7800 60  0001 C CNN "Tolerance"
 F 6 "25.0V" H 5700 7850 28  0000 L CNN "Maximum Voltage"
 	1    5600 7800
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R17
-U 1 1 5B48C44A
-P 900 3050
-F 0 "R17" H 1000 3100 28  0000 L CNN
-F 1 "3.3Ω" H 1000 3050 28  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 900 3050 60  0001 C CNN
-F 3 "" H 900 3050 60  0001 C CNN
-F 4 "3.3ohm" H 900 3050 60  0001 C CNN "Resistance"
-F 5 "2.0%" H 900 3050 60  0001 C CNN "Tolerance"
-F 6 "0.0625W" H 900 3050 60  0001 C CNN "Maximum Power"
-	1    900  3050
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C20
@@ -3556,141 +3476,16 @@ Wire Wire Line
 Connection ~ 1800 7050
 Wire Wire Line
 	1800 7050 1950 7050
-$Comp
-L power:+3.3VA #PWR0103
-U 1 1 5D5098F6
-P 1800 6950
-F 0 "#PWR0103" H 1800 6800 50  0001 C CNN
-F 1 "+3.3VA" H 1800 7090 50  0000 C CNN
-F 2 "" H 1800 6950 50  0001 C CNN
-F 3 "" H 1800 6950 50  0001 C CNN
-	1    1800 6950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 5750 3050 5850
-$Comp
-L power:+3.3VA #PWR0104
-U 1 1 5D50AEAE
-P 3050 5750
-F 0 "#PWR0104" H 3050 5600 50  0001 C CNN
-F 1 "+3.3VA" H 3050 5890 50  0000 C CNN
-F 2 "" H 3050 5750 50  0001 C CNN
-F 3 "" H 3050 5750 50  0001 C CNN
-	1    3050 5750
-	1    0    0    -1  
-$EndComp
 Connection ~ 3050 5850
 Wire Wire Line
 	3050 5850 3200 5850
 Wire Wire Line
 	1850 4850 1850 4950
-$Comp
-L power:+3.3VA #PWR0105
-U 1 1 5D50B15E
-P 1850 4850
-F 0 "#PWR0105" H 1850 4700 50  0001 C CNN
-F 1 "+3.3VA" H 1850 4990 50  0000 C CNN
-F 2 "" H 1850 4850 50  0001 C CNN
-F 3 "" H 1850 4850 50  0001 C CNN
-	1    1850 4850
-	1    0    0    -1  
-$EndComp
 Connection ~ 1850 4950
 Wire Wire Line
 	1850 4950 2000 4950
-Wire Wire Line
-	9800 3500 9750 3500
-$Comp
-L power:GND #PWR0106
-U 1 1 5D3BA88E
-P 10200 3950
-F 0 "#PWR0106" H 10200 3700 50  0001 C CNN
-F 1 "GND" H 10200 3800 50  0000 C CNN
-F 2 "" H 10200 3950 50  0001 C CNN
-F 3 "" H 10200 3950 50  0001 C CNN
-	1    10200 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10200 3900 9400 3900
-Wire Wire Line
-	9400 3700 9400 3900
-Wire Wire Line
-	9800 3700 9750 3700
-Wire Wire Line
-	9750 3700 9750 3500
-Connection ~ 9750 3500
-Wire Wire Line
-	9750 3500 9600 3500
-Wire Wire Line
-	10600 3500 11200 3500
-Wire Wire Line
-	10600 3600 10600 3500
-Connection ~ 10600 3500
-Connection ~ 10200 3900
-$Comp
-L power:+12V #PWR0107
-U 1 1 5D3CBEA7
-P 9600 3400
-F 0 "#PWR0107" H 9600 3250 50  0001 C CNN
-F 1 "+12V" H 9600 3540 50  0000 C CNN
-F 2 "" H 9600 3400 50  0001 C CNN
-F 3 "" H 9600 3400 50  0001 C CNN
-	1    9600 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 3400 9600 3500
-Connection ~ 9600 3500
-Wire Wire Line
-	9600 3500 9400 3500
-$Comp
-L power:+3.3VA #PWR0108
-U 1 1 5D3D850F
-P 11200 3400
-F 0 "#PWR0108" H 11200 3250 50  0001 C CNN
-F 1 "+3.3VA" H 11200 3540 50  0000 C CNN
-F 2 "" H 11200 3400 50  0001 C CNN
-F 3 "" H 11200 3400 50  0001 C CNN
-	1    11200 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11200 3400 11200 3500
-Wire Wire Line
-	11200 3500 11200 3600
-Connection ~ 11200 3500
-Wire Wire Line
-	11200 3800 11200 3900
-$Comp
-L Device:C_Small C3
-U 1 1 5D3DC7BA
-P 9400 3600
-F 0 "C3" H 9500 3550 28  0000 L CNN
-F 1 "2.2uF" H 9500 3600 28  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 9400 3600 60  0001 C CNN
-F 3 "" H 9400 3600 60  0001 C CNN
-F 4 "2.2uF" H 9400 3600 60  0001 C CNN "Capacitance"
-F 5 "40.0%" H 9400 3600 60  0001 C CNN "Tolerance"
-F 6 "25.0V" H 9500 3650 28  0000 L CNN "Maximum Voltage"
-	1    9400 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 5D3E31AB
-P 11200 3700
-F 0 "C5" H 11300 3650 28  0000 L CNN
-F 1 "2.2uF" H 11300 3700 28  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 11200 3700 60  0001 C CNN
-F 3 "" H 11200 3700 60  0001 C CNN
-F 4 "2.2uF" H 11200 3700 60  0001 C CNN "Capacitance"
-F 5 "40.0%" H 11200 3700 60  0001 C CNN "Tolerance"
-F 6 "6.3V" H 11300 3750 28  0000 L CNN "Maximum Voltage"
-	1    11200 3700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9100 1300 10050 1300
 Connection ~ 9100 2400
@@ -3759,19 +3554,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 2400 9450 2400
 Connection ~ 9450 2400
-Wire Wire Line
-	10200 3900 11200 3900
-$Comp
-L Regulator_Linear:ADP7142AUJZ-3.3 U8
-U 1 1 5D389590
-P 10200 3600
-F 0 "U8" H 10200 3967 50  0000 C CNN
-F 1 "ADP7142AUJZ-3.3" H 10200 3876 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 10200 3200 50  0001 C CIN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf" H 10200 3100 50  0001 C CNN
-	1    10200 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 1500 7650 1450
 $Comp
@@ -4122,6 +3904,75 @@ Wire Wire Line
 	6950 3000 7200 3000
 Wire Wire Line
 	6750 3550 7250 3550
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5D4441C1
+P 1850 4850
+F 0 "#PWR0103" H 1850 4700 50  0001 C CNN
+F 1 "+3V3" H 1850 4990 50  0000 C CNN
+F 2 "" H 1850 4850 50  0001 C CNN
+F 3 "" H 1850 4850 50  0001 C CNN
+	1    1850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 5D44BB7B
+P 3050 5750
+F 0 "#PWR0104" H 3050 5600 50  0001 C CNN
+F 1 "+3V3" H 3050 5890 50  0000 C CNN
+F 2 "" H 3050 5750 50  0001 C CNN
+F 3 "" H 3050 5750 50  0001 C CNN
+	1    3050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0105
+U 1 1 5D44F899
+P 1800 6950
+F 0 "#PWR0105" H 1800 6800 50  0001 C CNN
+F 1 "+3V3" H 1800 7090 50  0000 C CNN
+F 2 "" H 1800 6950 50  0001 C CNN
+F 3 "" H 1800 6950 50  0001 C CNN
+	1    1800 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5D45BF53
+P 9100 7150
+F 0 "#PWR0106" H 9100 7000 50  0001 C CNN
+F 1 "+3V3" H 9100 7290 50  0000 C CNN
+F 2 "" H 9100 7150 50  0001 C CNN
+F 3 "" H 9100 7150 50  0001 C CNN
+	1    9100 7150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9100 7150
+$Comp
+L power:+48V #PWR060
+U 1 1 5B54F55D
+P 1250 2800
+F 0 "#PWR060" H 1250 2650 50  0001 C CNN
+F 1 "+48V" H 1250 2940 50  0000 C CNN
+F 2 "" H 1250 2800 50  0001 C CNN
+F 3 "" H 1250 2800 50  0001 C CNN
+	1    1250 2800
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	10200 3950 10200 3900
+	1250 2800 1250 2850
+Text Label 11950 7150 0    40   ~ 0
+ENC_PROG
+Text Label 11950 6250 0    40   ~ 0
+MOT_PWR_EN
+Text Label 11950 6650 0    40   ~ 0
+MOT_PWM_C
+Connection ~ 10250 8050
+Wire Wire Line
+	10250 8050 10250 8100
+Wire Wire Line
+	10250 7650 10250 8050
+Wire Wire Line
+	10500 8050 10500 8200
 $EndSCHEMATC
