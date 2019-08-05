@@ -1,4 +1,4 @@
-update=Wed 17 Jul 2019 04:29:18 PM +08
+update=Thu Aug  1 22:16:26 2019
 version=1
 last_client=kicad
 
@@ -30,15 +30,15 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.13
+MinTrackWidth=0.152
 MinViaDiameter=0.6
 MinViaDrill=0.254
 MinMicroViaDiameter=0
 MinMicroViaDrill=0
 MinHoleToHole=0.25
 CopperEdgeClearance=0.01
-TrackWidth1=0.13
-TrackWidth2=0.13
+TrackWidth1=0.1524
+TrackWidth2=0.1524
 TrackWidth3=0.3
 TrackWidth4=0.5
 ViaDiameter1=0.6
@@ -239,8 +239,8 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.13
-TrackWidth=0.13
+Clearance=0.1524
+TrackWidth=0.1524
 ViaDiameter=0.6
 ViaDrill=0.254
 uViaDiameter=0.01
@@ -250,8 +250,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=3v3Power
-Clearance=0.13
-TrackWidth=0.3
+Clearance=0.1524
+TrackWidth=0.1524
 ViaDiameter=0.6
 ViaDrill=0.254
 uViaDiameter=0.01
@@ -261,7 +261,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=48vPower
-Clearance=0.13
+Clearance=0.1524
 TrackWidth=1.2
 ViaDiameter=1
 ViaDrill=0.35
@@ -272,8 +272,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=Test Points
-Clearance=0.13
-TrackWidth=0.13
+Clearance=0.1524
+TrackWidth=0.1524
 ViaDiameter=2
 ViaDrill=0.254
 uViaDiameter=0.01
