@@ -387,16 +387,12 @@ Wire Wire Line
 	9850 5350 9850 5400
 Wire Wire Line
 	9500 5250 9500 5350
-Wire Wire Line
-	1950 3550 1950 3400
 Connection ~ 1600 3550
 Wire Wire Line
 	1250 2850 1250 3200
 Wire Wire Line
 	1600 2850 1600 3200
 Connection ~ 1250 2850
-Wire Wire Line
-	1950 2850 1950 3200
 Connection ~ 1600 2850
 Connection ~ 9450 7150
 Connection ~ 9100 6450
@@ -442,10 +438,8 @@ Wire Wire Line
 	2300 3100 2300 3200
 Wire Wire Line
 	2300 3550 2300 3500
-Connection ~ 1950 3550
 Wire Wire Line
 	2300 2850 2300 2900
-Connection ~ 1950 2850
 Wire Wire Line
 	10250 8050 10500 8050
 Wire Wire Line
@@ -977,13 +971,9 @@ Wire Wire Line
 Wire Wire Line
 	1600 3550 1600 3650
 Wire Wire Line
-	1600 3550 1950 3550
-Wire Wire Line
 	1250 3550 1600 3550
 Wire Wire Line
 	1250 2850 1600 2850
-Wire Wire Line
-	1600 2850 1950 2850
 Wire Wire Line
 	9450 7150 9750 7150
 Wire Wire Line
@@ -996,10 +986,6 @@ Wire Wire Line
 	12750 5750 12750 5800
 Wire Wire Line
 	1100 9000 1250 9000
-Wire Wire Line
-	1950 3550 2300 3550
-Wire Wire Line
-	1950 2850 2300 2850
 Wire Wire Line
 	900  2100 900  2200
 Wire Wire Line
@@ -3961,18 +3947,8 @@ F 6 "63.0V" H 1700 3250 28  0000 L CNN "Maximum Voltage"
 	1    1600 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:CP_Small C5
-U 1 1 5D43A18E
-P 1950 3300
-F 0 "C5" H 2050 3350 28  0000 L CNN
-F 1 "180uF" H 2050 3300 28  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 1950 3300 60  0001 C CNN
-F 3 "" H 1950 3300 60  0001 C CNN
-F 4 "180.0uF" H 1950 3300 60  0001 C CNN "Capacitance"
-F 5 "20.0%" H 1950 3300 60  0001 C CNN "Tolerance"
-F 6 "63.0V" H 2050 3250 28  0000 L CNN "Maximum Voltage"
-	1    1950 3300
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	1600 3550 2300 3550
+Wire Wire Line
+	1600 2850 2300 2850
 $EndSCHEMATC
