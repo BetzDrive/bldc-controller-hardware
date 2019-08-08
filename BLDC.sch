@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:BLDC-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -3506,11 +3506,11 @@ U 1 1 5D465972
 P 8850 3900
 F 0 "C12" H 8650 3850 28  0000 L CNN
 F 1 "4.7μF" H 8600 3900 28  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 8850 3900 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8850 3900 60  0001 C CNN
 F 3 "" H 8850 3900 60  0001 C CNN
 F 4 "4.7μF" H 8850 3900 60  0001 C CNN "Capacitance"
 F 5 "40.0%" H 8850 3900 60  0001 C CNN "Tolerance"
-F 6 "6.3V" H 8650 3950 28  0000 L CNN "Maximum Voltage"
+F 6 "16.0V" H 8650 3950 28  0000 L CNN "Maximum Voltage"
 	1    8850 3900
 	1    0    0    -1  
 $EndComp
@@ -3592,11 +3592,11 @@ U 1 1 5D465979
 P 9200 3900
 F 0 "C17" H 9000 3850 28  0000 L CNN
 F 1 "4.7μF" H 8950 3900 28  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 9200 3900 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9200 3900 60  0001 C CNN
 F 3 "" H 9200 3900 60  0001 C CNN
 F 4 "4.7μF" H 9200 3900 60  0001 C CNN "Capacitance"
 F 5 "40.0%" H 9200 3900 60  0001 C CNN "Tolerance"
-F 6 "6.3V" H 9000 3950 28  0000 L CNN "Maximum Voltage"
+F 6 "16.0V" H 9000 3950 28  0000 L CNN "Maximum Voltage"
 	1    9200 3900
 	1    0    0    -1  
 $EndComp
