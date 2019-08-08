@@ -1,84 +1,43 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BLDC-rescue_+12V-BLDC-rescue
+# BLDC_INA250
 #
-DEF BLDC-rescue_+12V-BLDC-rescue #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BLDC-rescue_+12V-BLDC-rescue" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+DEF BLDC_INA250 U 0 5 Y Y 1 F N
+F0 "U" 300 -500 50 H V L CNN
+F1 "BLDC_INA250" 300 -600 50 H V L CNN
+F2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TSSOP*4.4x5.0mm*P0.65mm*
+$ENDFPLIST
 DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
+S -300 300 200 -300 0 1 0 f
+X IS- 1 -400 200 100 R 50 50 0 1 I
+X VS 10 -100 400 100 D 50 50 0 1 W
+X GND 11 -100 -400 100 U 50 50 0 1 P N
+X IN+ 12 300 100 100 L 50 50 0 1 I
+X SH+ 13 300 200 100 L 50 50 0 1 I
+X IS+ 14 -400 100 100 R 50 50 0 1 P N
+X IS+ 15 -400 100 100 R 50 50 0 1 P N
+X IS+ 16 -400 100 100 R 50 50 0 1 I
+X IS- 2 -400 200 100 R 50 50 0 1 P N
+X IS- 3 -400 200 100 R 50 50 0 1 P N
+X SH- 4 -400 -200 100 R 50 50 0 1 I
+X IN- 5 -400 -100 100 R 50 50 0 1 I
+X GND 6 -100 -400 100 U 50 50 0 1 W
+X NC 7 -300 0 100 R 50 50 0 1 N N
+X REF1 7 0 -400 100 U 50 50 0 1 I
+X GND 8 -100 -400 100 U 50 50 0 1 P N
+X OUT 9 300 -100 100 L 50 50 0 1 O
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_+3.3VA-BLDC-rescue
+# BLDC_SN74LVC1G66DCKR
 #
-DEF BLDC-rescue_+3.3VA-BLDC-rescue #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BLDC-rescue_+3.3VA-BLDC-rescue" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3.3VA 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_+3V3-BLDC-rescue
-#
-DEF BLDC-rescue_+3V3-BLDC-rescue #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BLDC-rescue_+3V3-BLDC-rescue" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_+48V-BLDC-rescue
-#
-DEF BLDC-rescue_+48V-BLDC-rescue #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BLDC-rescue_+48V-BLDC-rescue" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +48V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_GND-BLDC-rescue
-#
-DEF BLDC-rescue_GND-BLDC-rescue #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "BLDC-rescue_GND-BLDC-rescue" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_SN74LVC1G66DCKR-BLDC-rescue
-#
-DEF BLDC-rescue_SN74LVC1G66DCKR-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_SN74LVC1G66DCKR U 0 40 Y Y 1 F N
 F0 "U" 100 -200 60 H V C CNN
-F1 "BLDC-rescue_SN74LVC1G66DCKR-BLDC-rescue" 0 200 60 H V C CNN
+F1 "BLDC_SN74LVC1G66DCKR" 0 200 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -91,11 +50,11 @@ X C 4 200 -50 100 L 20 20 1 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_TC2030-MCP-NL-BLDC-rescue
+# BLDC_TC2030-MCP-NL
 #
-DEF BLDC-rescue_TC2030-MCP-NL-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_TC2030-MCP-NL U 0 40 Y Y 1 F N
 F0 "U" 100 -300 60 H V C CNN
-F1 "BLDC-rescue_TC2030-MCP-NL-BLDC-rescue" -50 -400 60 H V C CNN
+F1 "BLDC_TC2030-MCP-NL" -50 -400 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -109,11 +68,11 @@ X GND 5 -50 -350 100 U 20 20 1 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_ams-as50487d-BLDC-rescue
+# BLDC_ams-as50487d
 #
-DEF BLDC-rescue_ams-as50487d-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_ams-as50487d U 0 40 Y Y 1 F N
 F0 "U" -25 700 60 H V C CNN
-F1 "BLDC-rescue_ams-as50487d-BLDC-rescue" -25 600 60 H V C CNN
+F1 "BLDC_ams-as50487d" -25 600 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -135,63 +94,11 @@ X V 9 350 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_capacitor-sym$1-BLDC-rescue
+# BLDC_crystal-sym
 #
-DEF BLDC-rescue_capacitor-sym$1-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_crystal-sym U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_capacitor-sym$1-BLDC-rescue" 0 -35 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-T 0 70 70 28 0 0 0 + Normal 0 C C
-P 2 0 0 10 -50 20 50 20 N
-P 2 0 0 5 0 -20 0 -100 N
-P 2 0 0 5 0 100 0 20 N
-P 11 0 0 10 50 -38 41 -31 32 -26 21 -23 11 -21 0 -20 -11 -21 -21 -23 -32 -26 -41 -31 -50 -38 N
-X p_1 1 0 100 0 D 0 0 0 0 U
-X p_2 2 0 -100 0 U 0 0 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_capacitor-sym$2$1-BLDC-rescue
-#
-DEF BLDC-rescue_capacitor-sym$2$1-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_capacitor-sym$2$1-BLDC-rescue" 0 -35 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 0 10 -50 -20 50 -20 N
-P 2 0 0 10 -50 20 50 20 N
-P 2 0 0 5 0 -20 0 -100 N
-P 2 0 0 5 0 100 0 20 N
-X p_1 1 0 100 0 D 0 0 0 0 U
-X p_2 2 0 -100 0 U 0 0 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_capacitor-sym$2-BLDC-rescue
-#
-DEF BLDC-rescue_capacitor-sym$2-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_capacitor-sym$2-BLDC-rescue" 0 -35 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 0 10 -50 -20 50 -20 N
-P 2 0 0 10 -50 20 50 20 N
-P 2 0 0 5 0 -20 0 -100 N
-P 2 0 0 5 0 100 0 20 N
-X p_1 1 0 100 0 D 0 0 0 0 U
-X p_2 2 0 -100 0 U 0 0 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_crystal-sym-BLDC-rescue
-#
-DEF BLDC-rescue_crystal-sym-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_crystal-sym-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_crystal-sym" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -205,11 +112,11 @@ X p_2 2 0 100 0 D 0 0 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_diode-sym$2-BLDC-rescue
+# BLDC_diode-sym$2
 #
-DEF BLDC-rescue_diode-sym$2-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_diode-sym$2 U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_diode-sym$2-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_diode-sym$2" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -227,58 +134,11 @@ X c 2 0 -100 0 U 0 0 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_diode-sym-BLDC-rescue
+# BLDC_generic-box-sym$2
 #
-DEF BLDC-rescue_diode-sym-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_generic-box-sym$2 U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_diode-sym-BLDC-rescue" 0 -35 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 0 5 -50 -40 50 -40 N
-P 2 0 0 5 0 -40 0 -100 N
-P 2 0 0 5 0 100 0 40 N
-P 3 0 0 5 -50 -40 -50 -15 -30 -15 N
-P 3 0 0 5 50 -40 50 -65 30 -65 N
-P 4 0 0 0 -50 40 0 -40 50 40 -50 40 F
-X c 1 0 -100 0 U 0 0 0 0 U
-X a 2 0 100 0 D 0 0 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_fet-sym-BLDC-rescue
-#
-DEF BLDC-rescue_fet-sym-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_fet-sym-BLDC-rescue" 0 -35 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 0 5 -100 0 -75 0 N
-P 2 0 0 10 -75 65 -75 -65 N
-P 2 0 0 10 -50 -35 -50 -65 N
-P 2 0 0 10 -50 15 -50 -15 N
-P 2 0 0 10 -50 65 -50 35 N
-P 2 0 0 5 0 0 -25 0 N
-P 2 0 0 5 0 0 0 -50 N
-P 2 0 0 5 25 20 75 20 N
-P 3 0 0 5 0 -100 0 -50 -50 -50 N
-P 3 0 0 5 0 -50 50 -50 50 -20 N
-P 3 0 0 5 0 100 0 50 -50 50 N
-P 3 0 0 5 50 20 50 50 0 50 N
-P 4 0 0 0 -25 15 -50 0 -25 -15 -25 15 F
-P 4 0 0 0 75 -20 50 20 25 -20 75 -20 F
-X 1 1 -100 0 0 R 40 0 0 0 U
-X 2 2 0 -100 0 U 40 0 0 0 U
-X 3 3 0 100 0 D 40 0 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_generic-box-sym$2-BLDC-rescue
-#
-DEF BLDC-rescue_generic-box-sym$2-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_generic-box-sym$2-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_generic-box-sym$2" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -291,11 +151,11 @@ X p_5 5 50 300 100 D 20 20 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_hole-sym-BLDC-rescue
+# BLDC_hole-sym
 #
-DEF BLDC-rescue_hole-sym-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_hole-sym U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_hole-sym-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_hole-sym" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -306,11 +166,11 @@ X p_1 1 100 0 0 L 0 0 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_inductor-sym$1-BLDC-rescue
+# BLDC_inductor-sym
 #
-DEF BLDC-rescue_inductor-sym$1-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_inductor-sym U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_inductor-sym$1-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_inductor-sym" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -324,29 +184,11 @@ X p_2 2 0 100 0 D 0 0 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_inductor-sym-BLDC-rescue
+# BLDC_isl-ISL32459E
 #
-DEF BLDC-rescue_inductor-sym-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_inductor-sym-BLDC-rescue" 0 -35 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 0 5 0 -100 0 -75 N
-P 2 0 0 5 0 75 0 100 N
-P 11 0 0 10 0 -25 -8 -26 -15 -30 -20 -35 -24 -42 -25 -50 -24 -58 -20 -65 -15 -70 -8 -74 0 -75 N
-P 11 0 0 10 0 25 -8 24 -15 20 -20 15 -24 8 -25 0 -24 -8 -20 -15 -15 -20 -8 -24 0 -25 N
-P 11 0 0 10 0 75 -8 74 -15 70 -20 65 -24 58 -25 50 -24 42 -20 35 -15 30 -8 26 0 25 N
-X p_1 1 0 -100 0 U 0 0 0 0 U
-X p_2 2 0 100 0 D 0 0 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_isl-ISL32459E-BLDC-rescue
-#
-DEF BLDC-rescue_isl-ISL32459E-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_isl-ISL32459E U 0 40 Y Y 1 F N
 F0 "U" 150 -350 60 H V C CNN
-F1 "BLDC-rescue_isl-ISL32459E-BLDC-rescue" 0 -50 60 H V C CNN
+F1 "BLDC_isl-ISL32459E" 0 -50 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -362,11 +204,11 @@ X vcc 8 0 350 100 D 20 20 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_mcp-MCP9808-BLDC-rescue
+# BLDC_mcp-MCP9808
 #
-DEF BLDC-rescue_mcp-MCP9808-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_mcp-MCP9808 U 0 40 Y Y 1 F N
 F0 "U" 200 -250 60 H V C CNN
-F1 "BLDC-rescue_mcp-MCP9808-BLDC-rescue" 50 250 60 H V C CNN
+F1 "BLDC_mcp-MCP9808" 50 250 60 H V C CNN
 F2 "" 50 0 60 H I C CNN
 F3 "" 50 0 60 H I C CNN
 DRAW
@@ -382,11 +224,11 @@ X VCC 8 0 300 100 D 20 20 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_microfit-5-BLDC-rescue
+# BLDC_microfit-5
 #
-DEF BLDC-rescue_microfit-5-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_microfit-5 U 0 40 Y Y 1 F N
 F0 "U" 0 85 60 H V C CNN
-F1 "BLDC-rescue_microfit-5-BLDC-rescue" 0 15 60 H V C CNN
+F1 "BLDC_microfit-5" 0 15 60 H V C CNN
 F2 "" 0 50 60 H I C CNN
 F3 "" 0 50 60 H I C CNN
 DRAW
@@ -401,11 +243,11 @@ X p_7 7 50 400 100 D 20 20 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_omron-B3U-1000P-BLDC-rescue
+# BLDC_omron-B3U-1000P
 #
-DEF BLDC-rescue_omron-B3U-1000P-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_omron-B3U-1000P U 0 40 Y Y 1 F N
 F0 "U" -100 100 60 H V C CNN
-F1 "BLDC-rescue_omron-B3U-1000P-BLDC-rescue" 0 -50 60 H V C CNN
+F1 "BLDC_omron-B3U-1000P" 0 -50 60 H V C CNN
 F2 "" 50 0 60 H I C CNN
 F3 "" 50 0 60 H I C CNN
 DRAW
@@ -418,59 +260,11 @@ X ~ 2 250 0 100 L 20 20 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_resistor-sym$1-BLDC-rescue
+# BLDC_rhom-SMLP34RGB
 #
-DEF BLDC-rescue_resistor-sym$1-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_rhom-SMLP34RGB U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_resistor-sym$1-BLDC-rescue" 0 -35 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 0 5 0 -100 0 -62 N
-P 2 0 0 5 0 62 0 100 N
-P 7 0 0 10 0 -62 -30 -50 30 -25 -30 0 30 25 -30 50 0 62 N
-X p_1 1 0 -100 0 U 0 0 0 0 U
-X p_2 2 0 100 0 D 0 0 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_resistor-sym$2-BLDC-rescue
-#
-DEF BLDC-rescue_resistor-sym$2-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_resistor-sym$2-BLDC-rescue" 0 -35 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 0 5 0 -100 0 -62 N
-P 2 0 0 5 0 62 0 100 N
-P 7 0 0 10 0 -62 -30 -50 30 -25 -30 0 30 25 -30 50 0 62 N
-X p_1 1 0 -100 0 U 0 0 0 0 U
-X p_2 2 0 100 0 D 0 0 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_resistor-sym-BLDC-rescue
-#
-DEF BLDC-rescue_resistor-sym-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_resistor-sym-BLDC-rescue" 0 -35 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 2 0 0 5 0 -100 0 -62 N
-P 2 0 0 5 0 62 0 100 N
-P 7 0 0 10 0 -62 -30 -50 30 -25 -30 0 30 25 -30 50 0 62 N
-X p_1 1 0 -100 0 U 0 0 0 0 U
-X p_2 2 0 100 0 D 0 0 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_rhom-SMLP34RGB-BLDC-rescue
-#
-DEF BLDC-rescue_rhom-SMLP34RGB-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_rhom-SMLP34RGB-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_rhom-SMLP34RGB" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -482,11 +276,11 @@ X g 4 50 -200 100 U 20 20 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_st-DRV8312-BLDC-rescue
+# BLDC_st-DRV8312
 #
-DEF BLDC-rescue_st-DRV8312-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_st-DRV8312 U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_st-DRV8312-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_st-DRV8312" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -531,11 +325,11 @@ X GND_3 37 50 -1450 100 U 20 20 1 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_st-LSM6DS3US-BLDC-rescue
+# BLDC_st-LSM6DS3US
 #
-DEF BLDC-rescue_st-LSM6DS3US-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_st-LSM6DS3US U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_st-LSM6DS3US-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_st-LSM6DS3US" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -557,11 +351,11 @@ X int2 9 450 0 100 L 20 20 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_stmicro-STM32F405RG-BLDC-rescue
+# BLDC_stmicro-STM32F405RG
 #
-DEF BLDC-rescue_stmicro-STM32F405RG-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_stmicro-STM32F405RG U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_stmicro-STM32F405RG-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_stmicro-STM32F405RG" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -633,31 +427,11 @@ X PC1 9 -1100 -50 100 R 20 20 0 0 U
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_ti-LM5008-BLDC-rescue
+# BLDC_ti-LM5166
 #
-DEF BLDC-rescue_ti-LM5008-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 0 -250 60 H V C CNN
-F1 "BLDC-rescue_ti-LM5008-BLDC-rescue" 0 50 60 H V C CNN
-F2 "" 150 50 60 H I C CNN
-F3 "" 150 50 60 H I C CNN
-DRAW
-S -250 300 250 -300 0 1 0 f
-X SW 1 150 400 100 D 20 20 0 0 U
-X BST 2 -150 400 100 D 20 20 0 0 U
-X Rcl 3 150 -400 100 U 20 20 0 0 U
-X GND 4 -150 -400 100 U 20 20 0 0 U
-X FB 5 350 0 100 L 20 20 0 0 U
-X Ron 6 -350 -100 100 R 20 20 0 0 U
-X Vcc 7 -350 -200 100 R 20 20 0 0 U
-X Vin 8 -350 200 100 R 20 20 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_ti-LM5166-BLDC-rescue
-#
-DEF BLDC-rescue_ti-LM5166-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_ti-LM5166 U 0 40 Y Y 1 F N
 F0 "U" 0 35 60 H V C CNN
-F1 "BLDC-rescue_ti-LM5166-BLDC-rescue" 0 -35 60 H V C CNN
+F1 "BLDC_ti-LM5166" 0 -35 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -672,31 +446,15 @@ X PGOOD 6 300 100 100 L 20 20 0 0 U
 X EN 7 -300 0 100 R 20 20 0 0 U
 X FB 8 300 0 100 L 20 20 0 0 U
 X HYS 9 -300 -100 100 R 20 20 0 0 U
+X GND 11 -50 -350 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# BLDC-rescue_ti-OPA365-BLDC-rescue
+# BLDC_ti-TLV702
 #
-DEF BLDC-rescue_ti-OPA365-BLDC-rescue U 0 40 Y Y 1 F N
+DEF BLDC_ti-TLV702 U 0 40 Y Y 1 F N
 F0 "U" 150 -150 60 H V C CNN
-F1 "BLDC-rescue_ti-OPA365-BLDC-rescue" 0 300 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-P 4 0 1 0 -100 200 300 0 -100 -200 -100 200 f
-X Vout 1 400 0 100 L 20 20 0 0 U
-X V- 2 0 -250 100 U 20 20 0 0 U
-X IN+ 3 -200 50 100 R 20 20 0 0 U
-X IN- 4 -200 -50 100 R 20 20 0 0 U
-X V+ 5 0 250 100 D 20 20 0 0 U
-ENDDRAW
-ENDDEF
-#
-# BLDC-rescue_ti-TLV702-BLDC-rescue
-#
-DEF BLDC-rescue_ti-TLV702-BLDC-rescue U 0 40 Y Y 1 F N
-F0 "U" 150 -150 60 H V C CNN
-F1 "BLDC-rescue_ti-TLV702-BLDC-rescue" 0 0 60 H V C CNN
+F1 "BLDC_ti-TLV702" 0 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -706,6 +464,121 @@ X GND 2 0 -200 100 U 20 20 0 0 U
 X EN 3 -250 -50 100 R 20 20 0 0 U
 X NC 4 250 -50 100 L 20 20 0 0 U
 X OUT 5 250 50 100 L 20 20 0 0 U
+ENDDRAW
+ENDDEF
+#
+# Device_CP_Small
+#
+DEF Device_CP_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+S -60 -12 60 -27 0 1 0 F
+S -60 27 60 12 0 1 0 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 73 D 50 50 1 1 P
+X ~ 2 0 -100 73 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+12V
+#
+DEF power_+12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+48V
+#
+DEF power_+48V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+48V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +48V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
