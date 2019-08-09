@@ -1,4 +1,4 @@
-update=Thu Aug  1 22:16:26 2019
+update=Fri 09 Aug 2019 03:00:54 PM +08
 version=1
 last_client=kicad
 
@@ -24,6 +24,11 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=BLDC3.net
+LastSTEPExportPath=BLDC.step
+LastIDFExportPath=
+LastVRMLExportPath=
+LastSpecctraDSNExportPath=
+LastGenCADExportPath=
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -69,7 +74,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.09999999999999999
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
