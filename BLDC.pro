@@ -1,4 +1,4 @@
-update=Fri 09 Aug 2019 03:00:54 PM +08
+update=Fri Aug  9 23:12:23 2019
 version=1
 last_client=kicad
 
@@ -44,8 +44,9 @@ MinHoleToHole=0.25
 CopperEdgeClearance=0.01
 TrackWidth1=0.1524
 TrackWidth2=0.1524
-TrackWidth3=0.3
-TrackWidth4=0.5
+TrackWidth3=0.1778
+TrackWidth4=0.3
+TrackWidth5=0.5
 ViaDiameter1=0.6
 ViaDrill1=0.254
 dPairWidth1=0.2
@@ -74,7 +75,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.09999999999999999
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
