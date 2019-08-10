@@ -66,13 +66,13 @@ Text Label 7900 5300 2    40   ~ 0
 SWD_SWDIO
 Text Label 8500 5400 0    40   ~ 0
 SWD_SWCLK
-Text Label 9750 7350 2    40   ~ 0
+Text Label 10950 7650 3    40   ~ 0
 LED_B
 Text Label 11450 7650 3    40   ~ 0
 vcap-1
 Text Label 10950 5750 1    40   ~ 0
 SWD_SWO
-Text Label 9750 7450 2    40   ~ 0
+Text Label 10850 7650 3    40   ~ 0
 LED_G
 Text Label 11950 6750 0    40   ~ 0
 MOT_RST_C
@@ -80,35 +80,29 @@ Text Label 11950 6550 0    40   ~ 0
 MOT_PWM_B
 Text Label 11050 5750 1    40   ~ 0
 RS485_DIR
-Text Label 10350 5750 1    40   ~ 0
+Text Label 11250 7650 3    40   ~ 0
 I2C_SCL
-Text Label 10450 7650 3    40   ~ 0
+Text Label 9750 6850 2    40   ~ 0
 ISENSE_A
-Text Label 11950 7450 0    40   ~ 0
+Text Label 11950 7150 0    40   ~ 0
 MOT_OCTW
 Text Label 11450 5750 1    40   ~ 0
 SPI_CS
 Text Label 11950 6950 0    40   ~ 0
 MOT_RST_A
-Text Label 9750 6550 2    40   ~ 0
+Text Label 10650 7650 3    40   ~ 0
 SWD_RESET
 Text Label 11950 6150 0    40   ~ 0
 SWD_SWDIO
 Text Label 11550 5750 1    40   ~ 0
 SWD_SWCLK
-Text Label 11950 7350 0    40   ~ 0
+Text Label 11950 7050 0    40   ~ 0
 MOT_FAULT
-Text Label 10850 7650 3    40   ~ 0
-VSENSE_B
 Text Label 11950 6050 0    40   ~ 0
 vcap-2
-Text Label 10250 5750 1    40   ~ 0
-I2C_SDA
-Text Label 10750 7650 3    40   ~ 0
-VSENSE_C
-Text Label 9750 7250 2    40   ~ 0
+Text Label 11050 7650 3    40   ~ 0
 LED_R
-Text Label 10550 7650 3    40   ~ 0
+Text Label 9750 6750 2    40   ~ 0
 ISENSE_B
 Text Label 11350 5750 1    40   ~ 0
 SPI_CLK
@@ -118,26 +112,12 @@ Text Label 11950 6450 0    40   ~ 0
 MOT_PWM_A
 Text Label 11950 6850 0    40   ~ 0
 MOT_RST_B
-Text Label 10950 7650 3    40   ~ 0
-VSENSE_A
-Text Label 10650 7650 3    40   ~ 0
+Text Label 9750 6650 2    40   ~ 0
 ISENSE_C
 Text Label 10550 5750 1    40   ~ 0
 UART_RX
-Text Label 11050 7650 3    40   ~ 0
+Text Label 10750 7650 3    40   ~ 0
 LED_STATUS
-Text Label 2000 1300 3    40   ~ 0
-driver_phase-C
-Text Label 2050 2100 0    40   ~ 0
-VSENSE_C
-Text Label 1450 1300 3    40   ~ 0
-driver_phase-B
-Text Label 1500 2100 0    40   ~ 0
-VSENSE_B
-Text Label 900  1300 3    40   ~ 0
-driver_phase-A
-Text Label 950  2100 0    40   ~ 0
-VSENSE_A
 Text Label 2550 9700 2    40   ~ 0
 I2C_SCL
 Text Label 2550 9600 2    40   ~ 0
@@ -162,7 +142,7 @@ Text Notes 3850 6900 0    100  ~ 0
 RS485, Power Connectors
 Text Notes 3900 8600 0    100  ~ 0
 Accelerometer
-Text Label 9750 6250 2    40   ~ 0
+Text Label 11950 6250 0    40   ~ 0
 RS485_SHUNT_EN
 Text Label 10650 5750 1    40   ~ 0
 UART_TX
@@ -172,11 +152,11 @@ Text Label 9750 6950 2    40   ~ 0
 VSENSE_VIN
 Text Label 5250 7600 0    40   ~ 0
 IMU_INT1
-Text Label 9750 6150 2    40   ~ 0
+Text Label 11950 7250 0    40   ~ 0
 IMU_INT1
 Text Label 2550 9850 2    40   ~ 0
 TEMP_INT
-Text Label 9750 6050 2    40   ~ 0
+Text Label 11950 7350 0    40   ~ 0
 TEMP_INT
 Text Label 9600 1300 0    40   ~ 0
 3V9
@@ -196,10 +176,6 @@ Text Notes 7400 8500 0    100  ~ 0
 Processor
 Text Label 11950 6350 0    40   ~ 0
 ENC_ALIGN
-Text Label 11950 7050 0    40   ~ 0
-ENC_MAG_HI
-Text Label 11950 7250 0    40   ~ 0
-ENC_MAG_LO
 Wire Wire Line
 	1900 9600 1900 10050
 Wire Wire Line
@@ -210,8 +186,6 @@ Wire Wire Line
 	8850 6450 8750 6450
 Wire Wire Line
 	9050 6450 9100 6450
-Wire Wire Line
-	10350 5500 10350 5750
 Wire Wire Line
 	1650 9800 1650 10050
 Wire Wire Line
@@ -253,31 +227,17 @@ Wire Wire Line
 Wire Wire Line
 	12350 5750 12750 5750
 Wire Wire Line
-	10250 4900 10350 4900
-Wire Wire Line
 	9500 5350 9850 5350
 Wire Wire Line
 	11950 6050 12400 6050
 Wire Wire Line
 	12600 6050 12750 6050
 Wire Wire Line
-	2000 1800 2000 1300
-Wire Wire Line
-	2000 2000 2000 2100
-Wire Wire Line
 	1100 9350 1100 9650
 Wire Wire Line
 	1100 9000 1100 9150
 Wire Wire Line
-	1450 1800 1450 1300
-Wire Wire Line
-	1450 2000 1450 2100
-Wire Wire Line
 	8750 6350 8750 6450
-Wire Wire Line
-	900  1800 900  1300
-Wire Wire Line
-	900  2000 900  2100
 Wire Wire Line
 	9100 6450 9100 6500
 Wire Wire Line
@@ -287,17 +247,11 @@ Wire Wire Line
 Wire Wire Line
 	800  9000 1100 9000
 Wire Wire Line
-	2000 2400 2000 2550
-Wire Wire Line
 	5800 3950 5300 3950
 Wire Wire Line
 	5800 4050 5300 4050
 Wire Wire Line
 	5800 3850 5300 3850
-Wire Wire Line
-	1450 2550 1450 2400
-Wire Wire Line
-	900  2550 900  2400
 Wire Wire Line
 	7800 6550 7800 6700
 Wire Wire Line
@@ -396,18 +350,9 @@ Wire Wire Line
 Wire Wire Line
 	9100 7500 9450 7500
 Wire Wire Line
-	10250 5200 10250 5750
-Wire Wire Line
-	10250 4900 10250 5000
-Wire Wire Line
-	10350 4800 10350 4900
-Wire Wire Line
-	10450 4900 10450 5000
-Wire Wire Line
 	8700 1650 8700 1750
 Wire Wire Line
 	10050 1800 10550 1800
-Connection ~ 1450 2550
 Wire Wire Line
 	12750 5650 12750 5750
 Wire Wire Line
@@ -436,16 +381,6 @@ Wire Wire Line
 	10250 8050 10500 8050
 Wire Wire Line
 	10500 8000 10500 8050
-Wire Wire Line
-	900  2100 1150 2100
-Connection ~ 900  2100
-Wire Wire Line
-	1450 2100 1700 2100
-Connection ~ 1450 2100
-Wire Wire Line
-	2000 2100 2250 2100
-Connection ~ 2000 2100
-Connection ~ 2000 2550
 Wire Wire Line
 	2600 3550 2600 3500
 Connection ~ 2300 3550
@@ -480,7 +415,6 @@ Wire Wire Line
 	10050 5350 10050 5750
 Connection ~ 9850 5350
 Connection ~ 12750 6050
-Connection ~ 10350 4900
 Wire Wire Line
 	8300 1300 8150 1300
 Wire Wire Line
@@ -875,9 +809,9 @@ Wire Wire Line
 	5950 5950 5900 5950
 Wire Wire Line
 	5900 5950 5900 5900
-Text Label 11250 7650 3    40   ~ 0
+Text Label 10750 5750 1    40   ~ 0
 DISCO_BUS_IN
-Text Label 11350 7650 3    40   ~ 0
+Text Label 10850 5750 1    40   ~ 0
 DISCO_BUS_OUT
 Wire Wire Line
 	3000 1100 3600 1100
@@ -918,12 +852,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 9000 1250 9000
 Wire Wire Line
-	900  2100 900  2200
-Wire Wire Line
-	1450 2100 1450 2200
-Wire Wire Line
-	2000 2100 2000 2200
-Wire Wire Line
 	2300 3550 2600 3550
 Wire Wire Line
 	2300 3200 2300 3300
@@ -939,10 +867,6 @@ Wire Wire Line
 	12750 6050 13100 6050
 Wire Wire Line
 	12750 6050 12750 6100
-Wire Wire Line
-	10350 4900 10450 4900
-Wire Wire Line
-	10350 4900 10350 5300
 Wire Wire Line
 	8700 1750 8700 2150
 Wire Wire Line
@@ -1579,17 +1503,6 @@ F 3 "" H 4600 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR061
-U 1 1 5B54FC6E
-P 2000 2550
-F 0 "#PWR061" H 2000 2300 50  0001 C CNN
-F 1 "GND" H 2000 2400 50  0001 C CNN
-F 2 "" H 2000 2550 50  0001 C CNN
-F 3 "" H 2000 2550 50  0001 C CNN
-	1    2000 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR059
 U 1 1 5B54EF8F
 P 1600 3650
@@ -1768,12 +1681,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR032
 U 1 1 5B535449
-P 10350 4800
-F 0 "#PWR032" H 10350 4650 50  0001 C CNN
-F 1 "+3V3" H 10350 4940 50  0000 C CNN
-F 2 "" H 10350 4800 50  0001 C CNN
-F 3 "" H 10350 4800 50  0001 C CNN
-	1    10350 4800
+P 10450 4800
+F 0 "#PWR032" H 10450 4650 50  0001 C CNN
+F 1 "+3V3" H 10450 4940 50  0000 C CNN
+F 2 "" H 10450 4800 50  0001 C CNN
+F 3 "" H 10450 4800 50  0001 C CNN
+	1    10450 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2284,20 +2197,6 @@ F 6 "100.0V" V 4750 3050 28  0000 L CNN "Maximum Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R47
-U 1 1 5B48C3E8
-P 900 2300
-F 0 "R47" H 950 2350 28  0000 L CNN
-F 1 "2.21kΩ" H 950 2300 28  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 900 2300 60  0001 C CNN
-F 3 "" H 900 2300 60  0001 C CNN
-F 4 "2210.0ohm" H 900 2300 60  0001 C CNN "Resistance"
-F 5 "2.0%" H 900 2300 60  0001 C CNN "Tolerance"
-F 6 "0.0625W" H 900 2300 60  0001 C CNN "Maximum Power"
-	1    900  2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C62
 U 1 1 5B48C3E6
 P 3950 9450
@@ -2326,34 +2225,6 @@ F 6 "25.0V" V 4750 3250 28  0000 L CNN "Maximum Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R43
-U 1 1 5B48C407
-P 1450 2300
-F 0 "R43" H 1500 2350 28  0000 L CNN
-F 1 "2.21kΩ" H 1500 2300 28  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1450 2300 60  0001 C CNN
-F 3 "" H 1450 2300 60  0001 C CNN
-F 4 "2210.0ohm" H 1450 2300 60  0001 C CNN "Resistance"
-F 5 "2.0%" H 1450 2300 60  0001 C CNN "Tolerance"
-F 6 "0.0625W" H 1450 2300 60  0001 C CNN "Maximum Power"
-	1    1450 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R39
-U 1 1 5B48C402
-P 10250 5100
-F 0 "R39" V 10200 4950 28  0000 L CNN
-F 1 "2.21kΩ" V 10200 5100 28  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 10250 5100 60  0001 C CNN
-F 3 "" H 10250 5100 60  0001 C CNN
-F 4 "2210.0ohm" H 10250 5100 60  0001 C CNN "Resistance"
-F 5 "2.0%" H 10250 5100 60  0001 C CNN "Tolerance"
-F 6 "0.0625W" H 10250 5100 60  0001 C CNN "Maximum Power"
-	1    10250 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C60
 U 1 1 5B48C400
 P 3000 1200
@@ -2366,20 +2237,6 @@ F 5 "40.0%" H 3000 1200 60  0001 C CNN "Tolerance"
 F 6 "25.0V" H 2800 1250 28  0000 L CNN "Maximum Voltage"
 	1    3000 1200
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R38
-U 1 1 5B48C3F5
-P 2000 2300
-F 0 "R38" H 2050 2350 28  0000 L CNN
-F 1 "2.21kΩ" H 2050 2300 28  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2000 2300 60  0001 C CNN
-F 3 "" H 2000 2300 60  0001 C CNN
-F 4 "2210.0ohm" H 2000 2300 60  0001 C CNN "Resistance"
-F 5 "2.0%" H 2000 2300 60  0001 C CNN "Tolerance"
-F 6 "0.0625W" H 2000 2300 60  0001 C CNN "Maximum Power"
-	1    2000 2300
-	1    0    0    -1  
 $EndComp
 $Comp
 L BLDC:rhom-SMLP34RGB D3
@@ -2419,20 +2276,6 @@ F 5 "5.0%" H 9100 6600 60  0001 C CNN "Tolerance"
 F 6 "50.0V" H 9200 6650 28  0000 L CNN "Maximum Voltage"
 	1    9100 6600
 	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R33
-U 1 1 5B48C3D9
-P 900 1900
-F 0 "R33" H 950 1950 28  0000 L CNN
-F 1 "39.2kΩ" H 950 1900 28  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 900 1900 60  0001 C CNN
-F 3 "" H 900 1900 60  0001 C CNN
-F 4 "39200.0ohm" H 900 1900 60  0001 C CNN "Resistance"
-F 5 "2.0%" H 900 1900 60  0001 C CNN "Tolerance"
-F 6 "0.0625W" H 900 1900 60  0001 C CNN "Maximum Power"
-	1    900  1900
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C56
@@ -2475,20 +2318,6 @@ F 5 "5.0%" H 8750 6600 60  0001 C CNN "Tolerance"
 F 6 "50.0V" H 8850 6650 28  0000 L CNN "Maximum Voltage"
 	1    8750 6600
 	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R31
-U 1 1 5B48C3CA
-P 1450 1900
-F 0 "R31" H 1500 1950 28  0000 L CNN
-F 1 "39.2kΩ" H 1500 1900 28  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 1450 1900 60  0001 C CNN
-F 3 "" H 1450 1900 60  0001 C CNN
-F 4 "39200.0ohm" H 1450 1900 60  0001 C CNN "Resistance"
-F 5 "2.0%" H 1450 1900 60  0001 C CNN "Tolerance"
-F 6 "0.0625W" H 1450 1900 60  0001 C CNN "Maximum Power"
-	1    1450 1900
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C53
@@ -2556,20 +2385,6 @@ F 5 "40.0%" H 4100 1850 60  0001 C CNN "Tolerance"
 F 6 "25.0V" V 4200 1800 28  0000 L CNN "Maximum Voltage"
 	1    4100 1850
 	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_Small_US R30
-U 1 1 5B48C3C4
-P 2000 1900
-F 0 "R30" H 2050 1950 28  0000 L CNN
-F 1 "39.2kΩ" H 2050 1900 28  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2000 1900 60  0001 C CNN
-F 3 "" H 2000 1900 60  0001 C CNN
-F 4 "39200.0ohm" H 2000 1900 60  0001 C CNN "Resistance"
-F 5 "2.0%" H 2000 1900 60  0001 C CNN "Tolerance"
-F 6 "0.0625W" H 2000 1900 60  0001 C CNN "Maximum Power"
-	1    2000 1900
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C49
@@ -3040,20 +2855,6 @@ F 4 "150.0ohm" H 1650 9700 60  0001 C CNN "Resistance"
 F 5 "2.0%" H 1650 9700 60  0001 C CNN "Tolerance"
 F 6 "0.0625W" H 1650 9700 60  0001 C CNN "Maximum Power"
 	1    1650 9700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R9
-U 1 1 5B48C417
-P 10350 5400
-F 0 "R9" V 10400 5300 28  0000 L CNN
-F 1 "2.21kΩ" V 10400 5400 28  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 10350 5400 60  0001 C CNN
-F 3 "" H 10350 5400 60  0001 C CNN
-F 4 "2210.0ohm" H 10350 5400 60  0001 C CNN "Resistance"
-F 5 "2.0%" H 10350 5400 60  0001 C CNN "Tolerance"
-F 6 "0.0625W" H 10350 5400 60  0001 C CNN "Maximum Power"
-	1    10350 5400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3623,10 +3424,6 @@ Connection ~ 8600 3100
 Connection ~ 9050 3100
 Wire Wire Line
 	9050 3100 9050 3700
-Wire Wire Line
-	1450 2550 2000 2550
-Wire Wire Line
-	900  2550 1450 2550
 Text Label 6750 3550 0    40   ~ 0
 MOT_PWR_EN
 Wire Wire Line
@@ -3691,9 +3488,7 @@ F 3 "" H 1250 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1250 2800 1250 2850
-Text Label 11950 7150 0    40   ~ 0
-ENC_PROG
-Text Label 11950 6250 0    40   ~ 0
+Text Label 9750 6050 2    40   ~ 0
 MOT_PWR_EN
 Text Label 11950 6650 0    40   ~ 0
 MOT_PWM_C
@@ -3904,4 +3699,60 @@ Wire Wire Line
 Wire Wire Line
 	3950 9550 4300 9550
 Connection ~ 3950 9550
+$Comp
+L Device:R_Small_US R9
+U 1 1 5B48C417
+P 11250 8100
+F 0 "R9" V 11300 8000 28  0000 L CNN
+F 1 "2.21kΩ" V 11300 8100 28  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11250 8100 60  0001 C CNN
+F 3 "" H 11250 8100 60  0001 C CNN
+F 4 "2210.0ohm" H 11250 8100 60  0001 C CNN "Resistance"
+F 5 "2.0%" H 11250 8100 60  0001 C CNN "Tolerance"
+F 6 "0.0625W" H 11250 8100 60  0001 C CNN "Maximum Power"
+	1    11250 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R39
+U 1 1 5B48C402
+P 11350 8250
+F 0 "R39" V 11300 8100 28  0000 L CNN
+F 1 "2.21kΩ" V 11300 8250 28  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 11350 8250 60  0001 C CNN
+F 3 "" H 11350 8250 60  0001 C CNN
+F 4 "2210.0ohm" H 11350 8250 60  0001 C CNN "Resistance"
+F 5 "2.0%" H 11350 8250 60  0001 C CNN "Tolerance"
+F 6 "0.0625W" H 11350 8250 60  0001 C CNN "Maximum Power"
+	1    11350 8250
+	-1   0    0    -1  
+$EndComp
+Text Label 11350 7650 3    40   ~ 0
+I2C_SDA
+Wire Wire Line
+	11350 7650 11350 8150
+Wire Wire Line
+	11250 7650 11250 8000
+Wire Wire Line
+	10450 4800 10450 5000
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 5D4F6FF8
+P 11550 8500
+F 0 "#PWR0107" H 11550 8350 50  0001 C CNN
+F 1 "+3V3" H 11550 8640 50  0000 C CNN
+F 2 "" H 11550 8500 50  0001 C CNN
+F 3 "" H 11550 8500 50  0001 C CNN
+	1    11550 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 8350 11350 8500
+Wire Wire Line
+	11350 8500 11550 8500
+Wire Wire Line
+	11250 8200 11250 8500
+Wire Wire Line
+	11250 8500 11350 8500
+Connection ~ 11350 8500
 $EndSCHEMATC
