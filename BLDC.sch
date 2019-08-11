@@ -568,8 +568,6 @@ Wire Wire Line
 Connection ~ 2900 4150
 Wire Wire Line
 	4000 2400 4250 2400
-Wire Wire Line
-	4000 2100 4550 2100
 Connection ~ 4100 2000
 Connection ~ 4100 2800
 Connection ~ 4100 3700
@@ -603,7 +601,7 @@ Connection ~ 4100 3300
 Wire Wire Line
 	5150 3300 4950 3300
 Wire Wire Line
-	5050 2400 4950 2400
+	5150 2400 4950 2400
 Wire Wire Line
 	4750 3450 4650 3450
 Wire Wire Line
@@ -618,7 +616,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 1600 4250 1600
 Wire Wire Line
-	4800 2300 5050 2300
+	4800 2300 5150 2300
 Wire Wire Line
 	3600 1100 3600 1200
 Wire Notes Line
@@ -711,11 +709,6 @@ Connection ~ 4250 3300
 Connection ~ 4450 1500
 Connection ~ 4450 2300
 Connection ~ 4450 3100
-Wire Wire Line
-	5150 2350 5050 2350
-Wire Wire Line
-	5050 2300 5050 2350
-Connection ~ 5050 2350
 Wire Wire Line
 	4650 6050 4600 6050
 Wire Wire Line
@@ -896,8 +889,6 @@ Wire Wire Line
 Wire Wire Line
 	2900 4150 3100 4150
 Wire Wire Line
-	4100 2000 5250 2000
-Wire Wire Line
 	3650 4450 3400 4450
 Wire Wire Line
 	3650 4150 3650 4450
@@ -951,8 +942,6 @@ Wire Wire Line
 	4450 2300 4450 3100
 Wire Wire Line
 	4450 3100 4750 3100
-Wire Wire Line
-	5050 2350 5050 2400
 Wire Wire Line
 	3800 4250 3800 4450
 Wire Wire Line
@@ -1026,7 +1015,7 @@ Wire Wire Line
 	1650 6050 1650 6150
 Wire Wire Line
 	2250 5750 1950 5750
-Text Label 5250 2000 2    40   ~ 0
+Text Label 4550 2000 0    40   ~ 0
 driver_phase-A
 Text Label 4550 2800 0    40   ~ 0
 driver_phase-B
@@ -1348,28 +1337,6 @@ F 3 "" H 1950 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR089
-U 1 1 5BCBFE31
-P 6250 6550
-F 0 "#PWR089" H 6250 6300 50  0001 C CNN
-F 1 "GND" H 6250 6400 50  0000 C CNN
-F 2 "" H 6250 6550 50  0001 C CNN
-F 3 "" H 6250 6550 50  0001 C CNN
-	1    6250 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR088
-U 1 1 5BCBFC3D
-P 6250 5750
-F 0 "#PWR088" H 6250 5500 50  0001 C CNN
-F 1 "GND" H 6250 5600 50  0000 C CNN
-F 2 "" H 6250 5750 50  0001 C CNN
-F 3 "" H 6250 5750 50  0001 C CNN
-	1    6250 5750
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:+48V #PWR075
 U 1 1 5BCAE07C
 P 5900 5900
@@ -1396,8 +1363,8 @@ L BLDC:microfit-5 J4
 U 1 1 5BCADB0E
 P 6200 6150
 F 0 "J4" H 6300 5800 40  0000 C CNN
-F 1 "436500513" H 6000 6500 40  0000 C CNN
-F 2 "BLDC:molex-microfit-5-pkg" H 6200 6200 60  0001 C CNN
+F 1 "43650-0510" H 6000 6500 40  0000 C CNN
+F 2 "BLDC:molex-436500511" H 6200 6200 60  0001 C CNN
 F 3 "" H 6200 6200 60  0001 C CNN
 	1    6200 6150
 	1    0    0    1   
@@ -1504,13 +1471,13 @@ $EndComp
 $Comp
 L power:GND #PWR057
 U 1 1 5B54C2E4
-P 5150 2350
-F 0 "#PWR057" H 5150 2100 50  0001 C CNN
-F 1 "GND" H 5150 2200 50  0000 C CNN
-F 2 "" H 5150 2350 50  0001 C CNN
-F 3 "" H 5150 2350 50  0001 C CNN
-	1    5150 2350
-	0    -1   -1   0   
+P 5150 2400
+F 0 "#PWR057" H 5150 2150 50  0001 C CNN
+F 1 "GND" H 5150 2250 50  0001 C CNN
+F 2 "" H 5150 2400 50  0001 C CNN
+F 3 "" H 5150 2400 50  0001 C CNN
+	1    5150 2400
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR055
@@ -3701,8 +3668,6 @@ Wire Wire Line
 Wire Wire Line
 	11250 8500 11350 8500
 Connection ~ 11350 8500
-Text Notes 5450 2000 0    79   ~ 16
-TODO:\nrc snubbers
 Wire Wire Line
 	1950 1350 2150 1350
 Wire Wire Line
@@ -3779,4 +3744,39 @@ Wire Wire Line
 	4100 2800 5500 2800
 Text Label 4550 2900 0    40   ~ 0
 GND_B
+Text Notes 5750 3000 0    79   ~ 16
+snubber
+$Comp
+L Device:C_Small C29
+U 1 1 5D504D64
+P 5500 2300
+F 0 "C29" H 5592 2346 50  0000 L CNN
+F 1 "DNP" H 5592 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5500 2300 50  0001 C CNN
+F 3 "~" H 5500 2300 50  0001 C CNN
+	1    5500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R14
+U 1 1 5D504D65
+P 5500 2100
+F 0 "R14" H 5559 2146 50  0000 L CNN
+F 1 "DNP" H 5559 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5500 2100 50  0001 C CNN
+F 3 "~" H 5500 2100 50  0001 C CNN
+	1    5500 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 2300 5150 2400
+Connection ~ 5150 2400
+Wire Wire Line
+	4100 2000 5500 2000
+Wire Wire Line
+	5500 2400 5350 2400
+Wire Wire Line
+	5350 2400 5350 2100
+Wire Wire Line
+	4000 2100 5350 2100
 $EndSCHEMATC
