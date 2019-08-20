@@ -88,7 +88,7 @@ Text Label 10250 5750 1    40   ~ 0
 SPI_CS
 Text Label 11950 6950 0    40   ~ 0
 MOT_RST_A
-Text Label 10650 7650 3    40   ~ 0
+Text Label 9750 6550 2    40   ~ 0
 SWD_RESET
 Text Label 11950 6150 0    40   ~ 0
 SWD_SWDIO
@@ -3654,8 +3654,6 @@ Wire Wire Line
 	8990 1850 8990 2100
 Wire Wire Line
 	8270 2100 8275 2100
-Wire Wire Line
-	8275 2100 8725 2100
 Connection ~ 8725 2100
 Wire Wire Line
 	8725 2100 8990 2100
