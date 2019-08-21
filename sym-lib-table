@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "BLDC")(type "Legacy")(uri "${KIPRJMOD}/library/BLDC.lib")(options "")(descr ""))
+  (lib (name "Reference_Voltage")(type "Legacy")(uri "/usr/share/kicad-nightly/library/Reference_Voltage.lib")(options "")(descr ""))
 )
