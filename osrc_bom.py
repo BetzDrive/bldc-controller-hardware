@@ -3,7 +3,8 @@ import re
 import sys
 from bs4 import BeautifulSoup
 
-PREFIX_ORDERING = ['C','D','FB','J','CONN','Q','R','U','X','SW']
+PREFIX_ORDERING = ['C','D','FB','J','L','Q','R','U','X','S']
+IGNORE_PREFIX = ['H']
 line_number = 1  # globals are awesome
 
 def extract_field(fields, field_name, refdes, opt=False):
@@ -109,6 +110,10 @@ if __name__ == '__main__':
             for prefix in PREFIX_ORDERING:
                 if matches_prefix(c['ref'], prefix):
                     matched_prefix = True
+            for prefix in IGNORE_PREFIX:
+                if matches_prefix(c['ref'], prefix):
+                    matched_prefix = True
+                    print("safely ignoring refdes {}".format(c['ref']))
             if not matched_prefix:
                 print("ignoring refdes prefix: '{0}'".format(c['ref']))
         # now print them all to the output file
