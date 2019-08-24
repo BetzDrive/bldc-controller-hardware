@@ -13,6 +13,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L Device:C_Small C16
@@ -431,12 +436,12 @@ $EndComp
 $Comp
 L power:GND #PWR037
 U 1 1 5B539B90
-P 8950 7350
-F 0 "#PWR037" H 8950 7100 50  0001 C CNN
-F 1 "GND" H 8950 7200 50  0001 C CNN
-F 2 "" H 8950 7350 50  0001 C CNN
-F 3 "" H 8950 7350 50  0001 C CNN
-	1    8950 7350
+P 8600 7350
+F 0 "#PWR037" H 8600 7100 50  0001 C CNN
+F 1 "GND" H 8600 7200 50  0001 C CNN
+F 2 "" H 8600 7350 50  0001 C CNN
+F 3 "" H 8600 7350 50  0001 C CNN
+	1    8600 7350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -508,12 +513,12 @@ $EndComp
 $Comp
 L power:GND #PWR029
 U 1 1 5B533760
-P 10350 5400
-F 0 "#PWR029" H 10350 5150 50  0001 C CNN
-F 1 "GND" H 10350 5250 50  0001 C CNN
-F 2 "" H 10350 5400 50  0001 C CNN
-F 3 "" H 10350 5400 50  0001 C CNN
-	1    10350 5400
+P 10350 5250
+F 0 "#PWR029" H 10350 5000 50  0001 C CNN
+F 1 "GND" H 10350 5100 50  0001 C CNN
+F 2 "" H 10350 5250 50  0001 C CNN
+F 3 "" H 10350 5250 50  0001 C CNN
+	1    10350 5250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1162,19 +1167,19 @@ $EndComp
 $Comp
 L Device:C_Small C40
 U 1 1 5B48C3D8
-P 9300 7250
-F 0 "C40" H 9400 7200 28  0000 L CNN
-F 1 "100n" H 9400 7250 28  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9300 7250 60  0001 C CNN
-F 3 "~" H 9300 7250 60  0001 C CNN
-F 4 "0.1uF" H 9300 7250 60  0001 C CNN "Capacitance"
-F 5 "Digikey" H 9400 7300 50  0001 C CNN "D1N"
-F 6 "1276-1043-1-ND " H 9400 7300 50  0001 C CNN "D1PN"
-F 7 "Samsung" H 9400 7300 50  0001 C CNN "MFN"
-F 8 "CL05A104KA5NNNC " H 9400 7300 50  0001 C CNN "MPN"
-F 9 "25.0V" H 9400 7300 28  0000 L CNN "Maximum Voltage"
-F 10 "10%" H 9300 7250 60  0001 C CNN "Tolerance"
-	1    9300 7250
+P 8950 7250
+F 0 "C40" H 9050 7200 28  0000 L CNN
+F 1 "100n" H 9050 7250 28  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8950 7250 60  0001 C CNN
+F 3 "~" H 8950 7250 60  0001 C CNN
+F 4 "0.1uF" H 8950 7250 60  0001 C CNN "Capacitance"
+F 5 "Digikey" H 9050 7300 50  0001 C CNN "D1N"
+F 6 "1276-1043-1-ND " H 9050 7300 50  0001 C CNN "D1PN"
+F 7 "Samsung" H 9050 7300 50  0001 C CNN "MFN"
+F 8 "CL05A104KA5NNNC " H 9050 7300 50  0001 C CNN "MPN"
+F 9 "25.0V" H 9050 7300 28  0000 L CNN "Maximum Voltage"
+F 10 "10%" H 8950 7250 60  0001 C CNN "Tolerance"
+	1    8950 7250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1198,19 +1203,19 @@ $EndComp
 $Comp
 L Device:C_Small C38
 U 1 1 5B48C3D6
-P 8950 7250
-F 0 "C38" H 9050 7200 28  0000 L CNN
-F 1 "1u" H 9050 7250 28  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8950 7250 60  0001 C CNN
-F 3 "~" H 8950 7250 60  0001 C CNN
-F 4 "1.0uF" H 8950 7250 60  0001 C CNN "Capacitance"
-F 5 "Digikey" H 9050 7300 50  0001 C CNN "D1N"
-F 6 "490-10017-1-ND " H 9050 7300 50  0001 C CNN "D1PN"
-F 7 "Murata" H 9050 7300 50  0001 C CNN "MFN"
-F 8 "GRM155R61E105KA12D " H 9050 7300 50  0001 C CNN "MPN"
-F 9 "25.0V" H 9050 7300 28  0000 L CNN "Maximum Voltage"
-F 10 "10%" H 8950 7250 60  0001 C CNN "Tolerance"
-	1    8950 7250
+P 8600 7250
+F 0 "C38" H 8700 7200 28  0000 L CNN
+F 1 "1u" H 8700 7250 28  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8600 7250 60  0001 C CNN
+F 3 "~" H 8600 7250 60  0001 C CNN
+F 4 "1.0uF" H 8600 7250 60  0001 C CNN "Capacitance"
+F 5 "Digikey" H 8700 7300 50  0001 C CNN "D1N"
+F 6 "490-10017-1-ND " H 8700 7300 50  0001 C CNN "D1PN"
+F 7 "Murata" H 8700 7300 50  0001 C CNN "MFN"
+F 8 "GRM155R61E105KA12D " H 8700 7300 50  0001 C CNN "MPN"
+F 9 "25.0V" H 8700 7300 28  0000 L CNN "Maximum Voltage"
+F 10 "10%" H 8600 7250 60  0001 C CNN "Tolerance"
+	1    8600 7250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1808,12 +1813,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR0106
 U 1 1 5D45BF53
-P 8950 7150
-F 0 "#PWR0106" H 8950 7000 50  0001 C CNN
-F 1 "+3V3" H 8950 7290 50  0000 C CNN
-F 2 "" H 8950 7150 50  0001 C CNN
-F 3 "" H 8950 7150 50  0001 C CNN
-	1    8950 7150
+P 8600 7150
+F 0 "#PWR0106" H 8600 7000 50  0001 C CNN
+F 1 "+3V3" H 8600 7290 50  0000 C CNN
+F 2 "" H 8600 7150 50  0001 C CNN
+F 3 "" H 8600 7150 50  0001 C CNN
+	1    8600 7150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2205,15 +2210,15 @@ L Device:C_Small C34
 U 1 1 5D55C7C3
 P 7375 1900
 F 0 "C34" H 7475 1850 28  0000 L CNN
-F 1 "2n2" H 7475 1900 28  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7375 1900 60  0001 C CNN
+F 1 "3n3" H 7475 1900 28  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7375 1900 60  0001 C CNN
 F 3 "~" H 7375 1900 60  0001 C CNN
-F 4 "2.2nF" H 7375 1900 60  0001 C CNN "Capacitance"
+F 4 "3n3" H 7375 1900 60  0001 C CNN "Capacitance"
 F 5 "Digikey" H 7475 1950 50  0001 C CNN "D1N"
-F 6 "1276-1825-1-ND" H 7475 1950 50  0001 C CNN "D1PN"
-F 7 "Samsung" H 7475 1950 50  0001 C CNN "MFN"
-F 8 "CL21B222KBCNNNC" H 7475 1950 50  0001 C CNN "MPN"
-F 9 "50V" H 7475 1950 28  0000 L CNN "Maximum Voltage"
+F 6 "TBD" H 7475 1950 50  0001 C CNN "D1PN"
+F 7 "TBD" H 7475 1950 50  0001 C CNN "MFN"
+F 8 "TBD" H 7475 1950 50  0001 C CNN "MPN"
+F 9 "25V" H 7475 1950 28  0000 L CNN "Maximum Voltage"
 F 10 "10%" H 7375 1900 60  0001 C CNN "Tolerance"
 	1    7375 1900
 	-1   0    0    1   
@@ -2613,46 +2618,6 @@ F 10 "10%" H 1950 8250 60  0001 C CNN "Tolerance"
 	1    1950 8250
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+1V2 #PWR0130
-U 1 1 5D701F1E
-P 9500 7400
-F 0 "#PWR0130" H 9500 7250 50  0001 C CNN
-F 1 "+1V2" H 9515 7573 50  0000 C CNN
-F 2 "" H 9500 7400 50  0001 C CNN
-F 3 "" H 9500 7400 50  0001 C CNN
-	1    9500 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C37
-U 1 1 5D707115
-P 9500 7500
-F 0 "C37" H 9600 7450 28  0000 L CNN
-F 1 "100n" H 9600 7500 28  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9500 7500 60  0001 C CNN
-F 3 "~" H 9500 7500 60  0001 C CNN
-F 4 "0.1uF" H 9500 7500 60  0001 C CNN "Capacitance"
-F 5 "Digikey" H 9600 7550 50  0001 C CNN "D1N"
-F 6 "1276-1043-1-ND " H 9600 7550 50  0001 C CNN "D1PN"
-F 7 "Samsung" H 9600 7550 50  0001 C CNN "MFN"
-F 8 "CL05A104KA5NNNC " H 9600 7550 50  0001 C CNN "MPN"
-F 9 "25.0V" H 9600 7550 28  0000 L CNN "Maximum Voltage"
-F 10 "10%" H 9500 7500 60  0001 C CNN "Tolerance"
-	1    9500 7500
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0131
-U 1 1 5D7076AE
-P 9500 7600
-F 0 "#PWR0131" H 9500 7350 50  0001 C CNN
-F 1 "GND" H 9500 7450 50  0001 C CNN
-F 2 "" H 9500 7600 50  0001 C CNN
-F 3 "" H 9500 7600 50  0001 C CNN
-	1    9500 7600
-	1    0    0    -1  
-$EndComp
 Text Label 1900 9650 1    40   ~ 0
 LED_B
 Text Label 8185 9620 0    40   ~ 0
@@ -2699,11 +2664,11 @@ Text Label 7900 5300 2    40   ~ 0
 SWD_SWDIO
 Text Label 8500 5400 0    40   ~ 0
 SWD_SWCLK
-Text Label 10950 7650 3    40   ~ 0
+Text Label 9750 7350 2    40   ~ 0
 LED_B
 Text Label 11450 7650 3    40   ~ 0
 vcap-1
-Text Label 10650 7650 3    40   ~ 0
+Text Label 9750 7250 2    40   ~ 0
 LED_G
 Text Label 11950 6750 0    40   ~ 0
 MOT_RST_C
@@ -2731,7 +2696,7 @@ Text Label 11950 7050 0    40   ~ 0
 MOT_FAULT
 Text Label 11950 6050 0    40   ~ 0
 vcap-2
-Text Label 11050 7650 3    40   ~ 0
+Text Label 9750 7450 2    40   ~ 0
 LED_R
 Text Label 9750 6750 2    40   ~ 0
 ISENSE_B
@@ -2747,7 +2712,7 @@ Text Label 9750 6650 2    40   ~ 0
 ISENSE_C
 Text Label 10550 5750 1    40   ~ 0
 UART_RX
-Text Label 10550 7650 3    40   ~ 0
+Text Label 10350 5750 1    40   ~ 0
 LED_STATUS
 Text Label 2750 9700 2    40   ~ 0
 I2C_SCL
@@ -2799,7 +2764,7 @@ Text Notes 750  4400 0    100  ~ 0
 Motor Driver
 Text Notes 6750 4400 0    100  ~ 0
 DC-DC
-Text Notes 8630 8510 0    100  ~ 0
+Text Notes 7400 8500 0    100  ~ 0
 Processor
 Text Label 6700 6250 2    40   ~ 0
 RS485_D+
@@ -2882,7 +2847,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 7100 8100 6950
 Wire Wire Line
-	8950 7150 9300 7150
+	8600 7150 8950 7150
 Wire Wire Line
 	9150 5650 9500 5650
 Wire Wire Line
@@ -2966,7 +2931,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 6350 8750 6350
 Wire Wire Line
-	8950 7350 9300 7350
+	8600 7350 8950 7350
 Wire Wire Line
 	13400 5950 13400 6050
 Wire Wire Line
@@ -3204,7 +3169,7 @@ Wire Wire Line
 Wire Wire Line
 	1275 2850 1525 2850
 Wire Wire Line
-	9300 7150 9750 7150
+	8950 7150 9750 7150
 Wire Wire Line
 	9100 6450 9750 6450
 Wire Wire Line
@@ -3250,7 +3215,7 @@ Wire Wire Line
 Wire Wire Line
 	800  9000 800  9150
 Wire Wire Line
-	10450 5400 10450 5750
+	10450 5250 10450 5750
 Wire Wire Line
 	12050 7650 12050 7950
 Wire Wire Line
@@ -3623,17 +3588,11 @@ Wire Wire Line
 	9650 7000 9650 7050
 Wire Wire Line
 	9650 7050 9750 7050
-Wire Wire Line
-	9750 7350 9600 7350
-Wire Wire Line
-	9600 7350 9600 7400
-Wire Wire Line
-	9600 7400 9500 7400
 Connection ~ 7800 6950
 Connection ~ 1525 3550
 Connection ~ 1275 2850
 Connection ~ 1525 2850
-Connection ~ 9300 7150
+Connection ~ 8950 7150
 Connection ~ 9100 6450
 Connection ~ 8750 6450
 Connection ~ 13050 5950
@@ -3662,7 +3621,7 @@ Connection ~ 800  9000
 Connection ~ 9150 5850
 Connection ~ 9150 5650
 Connection ~ 12050 7650
-Connection ~ 8950 7350
+Connection ~ 8600 7350
 Connection ~ 7800 7500
 Connection ~ 8750 6750
 Connection ~ 4250 1600
@@ -3675,7 +3634,7 @@ Connection ~ 3800 4250
 Connection ~ 10040 1500
 Connection ~ 5150 3450
 Connection ~ 1500 8350
-Connection ~ 8950 7150
+Connection ~ 8600 7150
 Connection ~ 4100 1500
 Connection ~ 1275 3550
 Connection ~ 1025 2850
@@ -3736,7 +3695,6 @@ Connection ~ 1500 7050
 Connection ~ 1550 4950
 Connection ~ 2750 5850
 Connection ~ 1950 8150
-Connection ~ 9500 7400
 Connection ~ 2900 7550
 NoConn ~ 8400 3900
 NoConn ~ 8125 1900
@@ -3850,8 +3808,8 @@ Connection ~ 10250 8050
 Connection ~ 9900 8050
 NoConn ~ 10750 7650
 NoConn ~ 10850 7650
-Text Notes 10500 8200 0    50   ~ 0
-ALL LEDs on\nTIM3 channels
+Text Notes 9050 7700 0    50   ~ 0
+RGB LED on\nTIM2 CH1,2,3 or\nTIM5 CH1,2,3
 Text Notes 12400 6600 0    50   ~ 0
 MOTOR PWM on\nTIM1 channels
 $Comp
@@ -3904,8 +3862,8 @@ $EndComp
 Text Notes 7100 4200 0    50   ~ 0
 746 kHz to allow smaller inductor
 Wire Wire Line
-	10350 5400 10450 5400
-Text Notes 10200 5350 0    50   ~ 0
+	10350 5250 10450 5250
+Text Notes 10450 5200 0    50   ~ 0
 BOOT0=GND\nalways boot\nfrom flash
 Wire Wire Line
 	10000 5400 10150 5400
@@ -4332,4 +4290,6 @@ F 3 "" H 6600 6650 50  0001 C CNN
 	1    6600 6650
 	1    0    0    -1  
 $EndComp
+Text Notes 9750 5200 0    50   ~ 0
+LED_STATUS on\nTIM4_CH3 or\nTIM10_CH1
 $EndSCHEMATC
