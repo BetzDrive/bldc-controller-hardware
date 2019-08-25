@@ -2210,14 +2210,14 @@ L Device:C_Small C34
 U 1 1 5D55C7C3
 P 7375 1900
 F 0 "C34" H 7475 1850 28  0000 L CNN
-F 1 "3n3" H 7475 1900 28  0000 L CNN
+F 1 "4n7" H 7475 1900 28  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7375 1900 60  0001 C CNN
 F 3 "~" H 7375 1900 60  0001 C CNN
-F 4 "3n3" H 7375 1900 60  0001 C CNN "Capacitance"
+F 4 "4n7" H 7375 1900 60  0001 C CNN "Capacitance"
 F 5 "Digikey" H 7475 1950 50  0001 C CNN "D1N"
-F 6 "TBD" H 7475 1950 50  0001 C CNN "D1PN"
-F 7 "TBD" H 7475 1950 50  0001 C CNN "MFN"
-F 8 "TBD" H 7475 1950 50  0001 C CNN "MPN"
+F 6 "311-1039-1-ND" H 7475 1950 50  0001 C CNN "D1PN"
+F 7 "Yageo" H 7475 1950 50  0001 C CNN "MFN"
+F 8 "CC0402KRX7R8BB472" H 7475 1950 50  0001 C CNN "MPN"
 F 9 "25V" H 7475 1950 28  0000 L CNN "Maximum Voltage"
 F 10 "10%" H 7375 1900 60  0001 C CNN "Tolerance"
 	1    7375 1900
@@ -2808,8 +2808,8 @@ Text Notes 5750 3000 0    79   ~ 16
 snubber
 Text Notes 5750 2225 0    79   ~ 16
 snubber
-Text Notes 6850 2500 0    50   ~ 0
-1.1ms\nsoft-start time\nto share 2n2 cap with\n12v BOM line item
+Text Notes 6950 2350 0    50   ~ 0
+2.35ms\nsoft-start time
 Text Notes 1500 2325 0    50   ~ 0
 top-side ceramics
 Text Label 2750 4150 2    40   ~ 0
