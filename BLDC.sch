@@ -3804,8 +3804,6 @@ Wire Wire Line
 	10250 8150 9900 8150
 Connection ~ 10250 8150
 Connection ~ 9900 8150
-NoConn ~ 10750 7650
-NoConn ~ 10850 7650
 Text Notes 9050 7700 0    50   ~ 0
 RGB LED on\nTIM2 CH1,2,3 or\nTIM5 CH1,2,3
 Text Notes 12400 6600 0    50   ~ 0
@@ -4347,4 +4345,59 @@ Text Label 10100 9900 2    40   ~ 0
 I2C_SDA
 Text Label 2750 9700 2    40   ~ 0
 I2C_SCL
+Text Label 10350 7650 3    50   ~ 0
+BONUS1
+Text Label 10450 7650 3    50   ~ 0
+BONUS2
+Text Label 10550 7650 3    50   ~ 0
+BONUS3
+Text Label 10650 7650 3    50   ~ 0
+BONUS4
+Text Label 10750 7650 3    50   ~ 0
+BONUS5
+Text Label 10850 7650 3    50   ~ 0
+BONUS6
+Text Label 10950 7650 3    50   ~ 0
+BONUS7
+Text Label 11050 7650 3    50   ~ 0
+BONUS8
+Text Label 10950 9500 2    50   ~ 0
+BONUS1
+Wire Wire Line
+	10600 9500 10950 9500
+Wire Wire Line
+	10100 9400 9750 9400
+Wire Wire Line
+	9750 9500 10100 9500
+Text Label 10100 9500 2    50   ~ 0
+BONUS2
+Wire Wire Line
+	10600 9600 10950 9600
+Text Label 10950 9600 2    50   ~ 0
+BONUS3
+Text Label 10100 9600 2    50   ~ 0
+BONUS4
+Wire Wire Line
+	9750 9600 10100 9600
+Text Label 10950 9700 2    50   ~ 0
+BONUS5
+Wire Wire Line
+	10600 9700 10950 9700
+Wire Wire Line
+	9750 9700 10100 9700
+Text Label 10100 9700 2    50   ~ 0
+BONUS6
+Wire Wire Line
+	10600 9800 10950 9800
+Text Label 10950 9800 2    50   ~ 0
+BONUS7
+Wire Wire Line
+	9750 9800 10100 9800
+Text Label 10100 9800 2    50   ~ 0
+BONUS8
+Wire Wire Line
+	10600 9900 10950 9900
+Wire Wire Line
+	10950 9900 10950 10000
+Connection ~ 10950 10000
 $EndSCHEMATC
