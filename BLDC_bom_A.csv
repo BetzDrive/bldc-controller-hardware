@@ -8,7 +8,7 @@ Component,Quantity Per PCB,References,Value,Footprint,Tolerance,MFN,MPN,D1N,D1PN
 7,4,C8 C10 C47 C49,2u2,C_0402_1005Metric,10%,Murata,GRM155R61E225KE11D,Digikey,490-12703-1-ND,25.0V,
 8,1,C17,470n,C_0402_1005Metric,10%,Samsung,CL05A474KP5NNNC,Digikey,1276-1173-1-ND,10.0V,
 9,1,C34,4n7,C_0402_1005Metric,10%,Yageo,CC0402KRX7R8BB472,Digikey,311-1039-1-ND,25V,
-10,4,C4 C6 C7 C45,4u7,C_1210_3225Metric,10%,Samsung,CL32B475KCVZW6E,Digikey,1276-7060-1-ND,100V,
+10,4,C4 C6 C7 C45,4u7,C_1210_3225Metric,10%,TDK,C3225X7S2A475K200AB,Digikey,445-6042-1-ND,100V,
 11,1,C11,82p,C_0402_1005Metric,10%,AVX Corporation,04025A820FAT2A,Digikey,478-10115-1-ND,50V,
 12,2,D0 D2,LTST-C190GKT,D_0603_1608Metric,,Lite-On,LTST-C190GKT,Digikey,160-1183-1-ND,,
 13,2,D1 D4,SMF3.3,D_SOD-123F,,Littelfuse,SMF3.3,Digikey,F7701CT-ND,,
@@ -53,6 +53,6 @@ Total components:,104
 Schematic Version:,A
 Schematic Date:,2019-08-22
 PCB Variant:,['default']
-BoM Date:,Wed 09 Oct 2019 09:02:55 AM +08
-Schematic Source:,/home/luca/hw/bldc-controller-hardware/BLDC.sch
-KiCad Version:,Eeschema 5.99.0-unknown-34b26a0~100~ubuntu18.04.1
+BoM Date:,Mon Oct 14 13:54:15 2019
+Schematic Source:,/home/mquigley/hw/bldc-controller-hardware/BLDC.sch
+KiCad Version:,Eeschema 5.99.0-unknown-e291576~100~ubuntu18.04.1
