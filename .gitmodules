@@ -1,0 +1,3 @@
+[submodule "KiBoM"]
+	path = KiBoM
+	url = https://github.com/SchrodingersGat/KiBoM
