@@ -18,4 +18,5 @@ highly precise positional and torque commands.
  
 ## Renderings
 
-(To be uploaded)
+![3D Front](/renderings/front_facing.png)
+![3D Back](/renderings/back_facing.png)
