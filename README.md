@@ -1,4 +1,4 @@
-# BLDC Controller
+# Betz Drive - A BLDC Controller
 
 This board is designed for low-speed, high torque motor applications that require
 highly precise positional and torque commands.
