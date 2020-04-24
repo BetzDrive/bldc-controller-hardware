@@ -2,6 +2,7 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.sch-bak
 bldc-controller.csv
 bldc-controller.net
 bldc-controller.xml
