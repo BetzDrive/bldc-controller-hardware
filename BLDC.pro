@@ -28,8 +28,6 @@ ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
 [SchematicFrame]
 version=1
-[sheetnames]
-1=8bd27242-dda5-428d-91c0-b862d7b9cc89:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -372,3 +370,5 @@ uViaDrill=0
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[sheetnames]
+1=b102f2a6-c08a-4b46-a4f7-96536ed36942:
