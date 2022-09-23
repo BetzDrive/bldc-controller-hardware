@@ -6,4 +6,5 @@ bldc-controller.csv
 bldc-controller.net
 bldc-controller.xml
 *.zip
+fp-info-cache
 
